@@ -1,8 +1,17 @@
-import React from "react";
-import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import React, {useState} from "react";
+import { GoogleMap, LoadScript, Marker, InfoWindow } from "@react-google-maps/api";
+import axios from "axios"
+
 
 const MapContainer = () => {
-  
+    
+    const [ selected, setSelected ] = useState({});
+
+    const onSelect = (artwork) => {
+        setSelected(artwork);
+      }
+    
+
   const mapStyles = {        
     height: "100vh",
     width: "100%"};
@@ -11,38 +20,51 @@ const MapContainer = () => {
     lat: -37.813600, lng: 144.963100
   }
 
-  const locations = [
+    // axios.get("data.json")//update to be actual endpoint once backend api working
+    //     .then(res=>createMarkers(res.data))
+    //     .catch(console.log)
+
+    // const createMarkers = (data)=>{
+    //     const artworks = JSON.parse(data);
+    //     artworks.map(artwork=>{
+    //         return (
+    //             <Marker key={artwork.name} position={item.geom}/>
+    //             )
+    //     })
+    // }
+
+  const artworks = [
     {
-      name: "Location 1",
-      location: { 
-        lat: 41.3954,
-        lng: 2.162 
+      name: "Port Phillip Monument",
+      geom: { 
+        lat: -37.8056957854241,
+        lng: 144.907291041632 
       },
     },
     {
-      name: "Location 2",
-      location: { 
-        lat: 41.3917,
-        lng: 2.1649
+      name: "Blowhole",
+      geom: { 
+        lat: -37.8220182164578,
+        lng: 144.946871022845
       },
     },
     {
-      name: "Location 3",
-      location: { 
-        lat: 41.3773,
-        lng: 2.1585
+      name: "Federation Bells",
+      geom: { 
+        lat: -37.8186738864394,
+        lng: 144.974167165492
       },
     },
     {
       name: "Location 4",
-      location: { 
+      geom: { 
         lat: 41.3797,
         lng: 2.1682
       },
     },
     {
       name: "Location 5",
-      location: { 
+      geom: { 
         lat: 41.4055,
         lng: 2.1915
       },
@@ -58,11 +80,25 @@ const MapContainer = () => {
           center={defaultCenter}
           >
           {
-             locations.map(item => {
+             artworks.map(artwork => {
                return (
-               <Marker key={item.name} position={item.location}/>
+               <Marker key={artwork.name} position={artwork.geom} onClick={() => onSelect(artwork)}
+               />
                )
              })
+          }
+          {/* infoWindows */}
+          {
+            selected.geom && 
+            (
+            <InfoWindow
+            position={selected.geom}
+            clickable={true}
+            onCloseClick={() => setSelected({})}
+            >
+            <p>{selected.name}</p>
+            </InfoWindow>
+            )
           }
           </GoogleMap>
      </LoadScript>
