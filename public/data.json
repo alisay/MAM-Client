@@ -1,0 +1,51 @@
+   {
+      "_id":{
+         "$oid":"5fd6fdaae03bcac094a166fd"
+      },
+      "name":"Port Phillip Monument",
+      "addresspt":"178 Sims Street, WEST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1941",
+      "structure_":"Basalt monument",
+      "geom":{
+         "latitude":"-37.8056957854241",
+         "longitude":"144.907291041632"
+      },
+      "easting":"315771.745",
+      "northing":"5813680.208",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "_id":{
+         "$oid":"5fd6fdaae03bcac094a166fe"
+      },
+      "name":"Blowhole",
+      "addresspt":"13 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "geom":{
+         "latitude":"-37.8220182164578",
+         "longitude":"144.946871022845"
+      },
+      "easting":"319296.292",
+      "northing":"5811946.283",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "_id":{
+         "$oid":"5fd6fdaae03bcac094a166ff"
+      },
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "geom":{
+         "latitude":"-37.8186738864394",
+         "longitude":"144.974167165492"
+      },
+      "easting":"321690.93246",
+      "northing":"5812369.85732",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   }
