@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import { GoogleMap, LoadScript, Marker, InfoWindow } from "@react-google-maps/api";
 import axios from "axios"
 
@@ -6,10 +6,23 @@ import axios from "axios"
 const MapContainer = () => {
     
     const [ selected, setSelected ] = useState({});
+    const [ currentPosition, setCurrentPosition ] = useState({});
 
     const onSelect = (artwork) => {
         setSelected(artwork);
       }
+    
+    const success = position => {
+        const currentPosition = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        }
+        setCurrentPosition(currentPosition);
+      };
+      
+    useEffect(() => {
+        navigator.geolocation.getCurrentPosition(success);
+      })
     
 
   const mapStyles = {        
@@ -79,6 +92,13 @@ const MapContainer = () => {
           zoom={13}
           center={defaultCenter}
           >
+            {
+            currentPosition.lat && 
+            (
+            <Marker position={currentPosition} />
+            ) 
+          }
+        {/* artwork markers */}
           {
              artworks.map(artwork => {
                return (
