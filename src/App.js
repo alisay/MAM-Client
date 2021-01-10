@@ -7,12 +7,13 @@ import Map from "./components/Map.js";
 
 
 function App() {
-  return (<BrowserRouter>
-  <NavBar />
-  <main>
-    <Map />
-  </main>
-  </BrowserRouter>
+  return (
+    <BrowserRouter>
+      <NavBar />
+      <main>
+        <Map />
+      </main>
+    </BrowserRouter>
   );
 }
 
