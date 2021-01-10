@@ -8,7 +8,9 @@ function App() {
     <Nav />
     
     <main>
-
+      <Route exact path="/">
+        
+      </Route>
     
     </main>
     </BrowserRouter>
