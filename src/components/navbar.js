@@ -1,17 +1,24 @@
-import React, { Component } from "react";
- 
-class NavBar extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <nav className="navbar navbar-dark bg-dark mb-3">
-          <a className="navbar-brand" href="#">
-            <h1>Total Items <span className="badge badge-secondary">{this.props.totalItems}</span></h1>
-          </a>
-        </nav>
-      </React.Fragment>
-    );
-  }
+import React from "react";
+import {Link} from "react-router-dom"
+  
+const NavBar = ()=>{
+
+  return(<>
+    <nav>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/login">Log in</Link>
+        </li>
+      </ul>
+      
+    </nav> 
+    </>)
 }
- 
+
 export default NavBar;
