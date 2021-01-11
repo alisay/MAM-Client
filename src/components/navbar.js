@@ -1,18 +1,11 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import { fade, makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import Typography from '@material-ui/core/Typography';
-import InputBase from '@material-ui/core/InputBase';
-import MenuItem from '@material-ui/core/MenuItem';
-import Menu from '@material-ui/core/Menu';
+import { AppBar, Toolbar, IconButton, Typography, InputBase, MenuItem, Menu } from '@material-ui/core/';
 import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MoreIcon from '@material-ui/icons/MoreVert';
-// import {Button} from '@material-ui/core';
 import About from "./About.js";
-
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -114,7 +107,7 @@ export default function PrimarySearchAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
+      <MenuItem component={Link} to={'/account'} onClick={handleMenuClose}>My account</MenuItem>
       <MenuItem onClick={handleMenuClose}>Log out</MenuItem>
     </Menu>
   );
@@ -126,7 +119,8 @@ export default function PrimarySearchAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            Melbourne Art Map
+            <Link to="/" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+            Melbourne Art Map</Link>
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>

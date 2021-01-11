@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter} from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import 'fontsource-roboto';
 
 import NavBar from "./components/Navbar.js";
@@ -10,7 +10,14 @@ function App() {
   return (<BrowserRouter>
   <NavBar />
   <main>
-    <MapContainer />
+    <Switch>
+      <Route exact path="/">
+        <MapContainer />
+      </Route>
+      <Route exact path="/account">
+        <MapContainer />
+      </Route>
+    </Switch>
   </main>
   </BrowserRouter>
   );
