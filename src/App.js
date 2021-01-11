@@ -4,6 +4,7 @@ import 'fontsource-roboto';
 
 import NavBar from "./components/Navbar.js";
 import MapContainer from "./components/Map.js";
+import Account from "./components/Account.js";
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <MapContainer />
       </Route>
       <Route exact path="/account">
-        <MapContainer />
+        <Account />
       </Route>
     </Switch>
   </main>
