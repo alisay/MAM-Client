@@ -11,6 +11,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MoreIcon from '@material-ui/icons/MoreVert';
 // import {Button} from '@material-ui/core';
+import About from "./About.js";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -125,7 +126,7 @@ export default function PrimarySearchAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography className={classes.title} variant="h6" noWrap>
-            Melbourne Art Map   
+            Melbourne Art Map
           </Typography>
           <div className={classes.search}>
             <div className={classes.searchIcon}>
@@ -141,6 +142,7 @@ export default function PrimarySearchAppBar() {
             />
           </div>
           <div className={classes.grow} />
+          <About />   
           <div className={classes.sectionDesktop}>
             <IconButton
               edge="end"
