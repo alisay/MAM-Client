@@ -8,6 +8,7 @@ const MapContainer = () => {
     const [ selected, setSelected ] = useState({});
     const [ currentPosition, setCurrentPosition ] = useState({});
 
+    const [ artworks, setArtworks ] = useState(undefined)
     const onSelect = (artwork) => {
         setSelected(artwork);
       }
@@ -20,22 +21,47 @@ const MapContainer = () => {
         setCurrentPosition(currentPosition);
       };
       
+
     useEffect(() => {
         navigator.geolocation.getCurrentPosition(success);
-      })
+    })
+
+    // on mount
+    useEffect(() => {
+        axios.get("data.json")//update to be actual endpoint once backend api working
+            .then((res) => {
+                setArtworks(res.data)
+            })
+            .catch(console.log)
+        }, [])
+
+    const mapStyles = {        
+        height: "100vh",
+        width: "100%"};
     
+    const defaultCenter = {
+        lat: -37.813600, lng: 144.963100
+    }
 
-  const mapStyles = {        
-    height: "100vh",
-    width: "100%"};
-  
-  const defaultCenter = {
-    lat: -37.813600, lng: 144.963100
-  }
+//   const getMarkers = () => {
+//     const markersHTMLElem = []
 
-    // axios.get("data.json")//update to be actual endpoint once backend api working
-    //     .then(res=>createMarkers(res.data))
-    //     .catch(console.log)
+//     axios.get("data.json")//update to be actual endpoint once backend api working
+//         .then((res) => {
+//             setData(res.data)
+//             // const artworks = JSON.parse(res.data)
+//             // console.log('artworkds ', artworks)
+
+//             // artworks.map(artwork => 
+//             //     markersHTMLElem.add(<Marker key={artwork.name} position={artwork.geom}/>)
+//             // )
+//             // console.log('adding elem to array ', markersHTMLElem)
+//         })
+//         .catch(console.log)
+
+//     // console.log('array of markers ', markersHTMLElem)
+//   }
+
 
     // const createMarkers = (data)=>{
     //     const artworks = JSON.parse(data);
@@ -46,7 +72,7 @@ const MapContainer = () => {
     //     })
     // }
 
-  const artworks = [
+  const fartworks = [
     {
       name: "Port Phillip Monument",
       geom: { 
@@ -100,12 +126,16 @@ const MapContainer = () => {
           }
         {/* artwork markers */}
           {
-             artworks.map(artwork => {
-               return (
-               <Marker key={artwork.name} position={artwork.geom} onClick={() => onSelect(artwork)}
-               />
-               )
-             })
+            //  artworks.map(artwork => {
+            //    return (
+            //    <Marker key={artwork.name} position={artwork.geom} onClick={() => onSelect(artwork)}
+            //    />
+            //    )
+            //  })
+
+            artworks && artworks.map(artwork => 
+                <Marker key={artwork.name} position={{lat: parseFloat(artwork.geom.lat), lng: parseFloat(artwork.geom.lon)}}/>
+            )
           }
           {/* infoWindows */}
           {
