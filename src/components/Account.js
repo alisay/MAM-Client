@@ -31,7 +31,6 @@ export default function Account() {
               const { lat, lng } = response.results[0].geometry.location;
               const location = {"geom":{"latitude":lat, "longitude":lng}}
               setArtwork(location)
-              console.log(artwork)
             },
             error => {
               console.error(error);
@@ -39,7 +38,6 @@ export default function Account() {
             }
           );
     }
-
   
     const handleFormSubmit = (event) => {
         event.preventDefault();
@@ -73,8 +71,7 @@ export default function Account() {
           <p><TextField
           id="standard-required"
           label="lat, lng"
-          value={artwork && artwork.geom ? `${artwork.geom.latitude}` : ""}
-
+          value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
         /></p>
           <p><TextField required id="standard-required" label="Required" defaultValue="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
           <p><TextField required id="standard-required" label="Required" defaultValue="Year of construction" onChange={event=>setArtwork({...artwork, "artdate": event.target.value})}/></p>
