@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
+import axios from 'axios';
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
 
@@ -33,7 +34,8 @@ export default function Account() {
               console.log(artwork)
             },
             error => {
-              console.error(error);//display error to user
+              console.error(error);
+              window.alert(error);//display error to user
             }
           );
     }
@@ -43,15 +45,20 @@ export default function Account() {
         event.preventDefault();
           
         console.log(JSON.stringify(artwork))
-        fetch("https://melbourneartmap.herokuapp.com/artworks/new", {
-        	method: "POST",
-          	headers: {
-            	"Content-Type": "application/json"
-            }, 
-          	body: JSON.stringify(artwork)
-        })
-          .then(response=>response.json())
-          .then(console.log)
+        axios.post("https://melbourneartmap.herokuapp.com/artworks/new",
+        {
+            body: JSON.stringify(artwork)
+        },    
+        {
+                auth:{
+                    username: "admin",
+                    password: "123456"
+                }
+            }
+         ) .then(response=>{
+             console.log(response)
+            //  return response.json()
+            })
           .catch(console.log)
     }
 
@@ -64,12 +71,10 @@ export default function Account() {
           <p><TextField required id="standard-required" label="Required" defaultValue="Address" onChange={event=>setArtwork({...artwork, "addresspt": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
-          id="standard-read-only-input"
+          id="standard-required"
           label="lat, lng"
-          defaultValue={artwork.geom}//update by default
-          InputProps={{
-            readOnly: true,
-          }}
+          value={artwork && artwork.geom ? `${artwork.geom.latitude}` : ""}
+
         /></p>
           <p><TextField required id="standard-required" label="Required" defaultValue="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
           <p><TextField required id="standard-required" label="Required" defaultValue="Year of construction" onChange={event=>setArtwork({...artwork, "artdate": event.target.value})}/></p>
