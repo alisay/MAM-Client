@@ -27,13 +27,13 @@ const MapContainer = () => {
     })
 
     // on mount
-    useEffect(() => {
-        axios.get("data.json")//update to be actual endpoint once backend api working
-            .then((res) => {
-                setArtworks(res.data)
-            })
-            .catch(console.log)
-        }, [])
+    // useEffect(() => {
+    //     axios.get("data.json")//update to be actual endpoint once backend api working
+    //         .then((res) => {
+    //             setArtworks(res.data)
+    //         })
+    //         .catch(console.log)
+    //     }, [])
 
     const mapStyles = {        
         height: "100vh",
@@ -42,35 +42,6 @@ const MapContainer = () => {
     const defaultCenter = {
         lat: -37.813600, lng: 144.963100
     }
-
-//   const getMarkers = () => {
-//     const markersHTMLElem = []
-
-//     axios.get("data.json")//update to be actual endpoint once backend api working
-//         .then((res) => {
-//             setData(res.data)
-//             // const artworks = JSON.parse(res.data)
-//             // console.log('artworkds ', artworks)
-
-//             // artworks.map(artwork => 
-//             //     markersHTMLElem.add(<Marker key={artwork.name} position={artwork.geom}/>)
-//             // )
-//             // console.log('adding elem to array ', markersHTMLElem)
-//         })
-//         .catch(console.log)
-
-//     // console.log('array of markers ', markersHTMLElem)
-//   }
-
-
-    // const createMarkers = (data)=>{
-    //     const artworks = JSON.parse(data);
-    //     artworks.map(artwork=>{
-    //         return (
-    //             <Marker key={artwork.name} position={item.geom}/>
-    //             )
-    //     })
-    // }
 
   const fartworks = [
     {
@@ -126,16 +97,17 @@ const MapContainer = () => {
           }
         {/* artwork markers */}
           {
-            //  artworks.map(artwork => {
-            //    return (
-            //    <Marker key={artwork.name} position={artwork.geom} onClick={() => onSelect(artwork)}
-            //    />
-            //    )
-            //  })
+             fartworks.map(artwork => {
+               return (
+               <Marker key={artwork.name} position={artwork.geom} onClick={() => onSelect(artwork)}
+               />
+               )
+             })
 
-            artworks && artworks.map(artwork => 
-                <Marker key={artwork.name} position={{lat: parseFloat(artwork.geom.lat), lng: parseFloat(artwork.geom.lon)}}/>
-            )
+            // use this with json
+            // artworks && artworks.map(artwork => 
+            //     <Marker key={artwork.name} position={{lat: parseFloat(artwork.geom.lat), lng: parseFloat(artwork.geom.lon)}}/>
+            // )
           }
           {/* infoWindows */}
           {
