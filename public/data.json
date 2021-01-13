@@ -1,0 +1,4221 @@
+[
+   {
+      "geom":{
+         "latitude":"-37.8130493620338",
+         "longitude":"144.968210969062"
+      },
+      "_id":"5ff7c73dd1be578bb6f389be",
+      "asset_typ":"Art",
+      "name":"A History Apparatus - Vessel, Craft & Beacon",
+      "addresspt":"147 Russell Street, MELBOURNE",
+      "artist":"Chris Reynolds",
+      "artdate":"1993",
+      "structure_":"Steel and fibreglass sculpture on bitumen, concrete and bluestone foundation",
+      "easting":"321153.051",
+      "northing":"5812982.6",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8123635338167",
+         "longitude":"144.97374504876"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a67",
+      "asset_typ":"Monument",
+      "name":"Adam Lindsay Gordan Memorial",
+      "addresspt":"96 Spring Street, EAST MELBOURNE",
+      "artist":"Paul Montford",
+      "artdate":"1931",
+      "structure_":"Bronze statue on sandstone pedestal",
+      "easting":"321638.585",
+      "northing":"5813069.286",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8182323264616",
+         "longitude":"144.947444643152"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c4",
+      "asset_typ":"Art",
+      "name":"Anchor",
+      "addresspt":"760 Bourke Street, DOCKLANDS",
+      "artist":"Neil Dawson",
+      "artdate":"2005",
+      "structure_":"Decorative rope work",
+      "easting":"319337.552",
+      "northing":"5812367.5",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8189542313538",
+         "longitude":"144.972959186532"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a64",
+      "asset_typ":"Art",
+      "name":"Angel",
+      "addresspt":"Birrarung Marr",
+      "artist":"Deborah Halpern",
+      "artdate":"1988",
+      "structure_":"Ceramic, steel and concrete sculpture",
+      "easting":"321585.273",
+      "northing":"5812336.4415625",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8112942929369",
+         "longitude":"144.973168986334"
+      },
+      "_id":"5ff7c73dd1be578bb6f389bc",
+      "asset_typ":"Art",
+      "name":"Another View, Site 1",
+      "addresspt":"152 Spring Street, EAST MELBOURNE",
+      "artist":"Ray Thomas",
+      "artdate":"1994",
+      "structure_":"Red granite and brass paving inlay",
+      "easting":"321585.298",
+      "northing":"5813186.835",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8148051249324",
+         "longitude":"144.968381003481"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c0",
+      "asset_typ":"Art",
+      "name":"Another View, Site 17",
+      "addresspt":"154 Collins Street, MELBOURNE",
+      "artist":"Ray Thomas",
+      "artdate":"1994-1995",
+      "structure_":"Bluestone paver with brass inlay",
+      "easting":"321172.257",
+      "northing":"5812788.096",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8194133196692",
+         "longitude":"144.960198717453"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c3",
+      "asset_typ":"Art",
+      "name":"Another View, Site 8",
+      "addresspt":"422 Flinders Street, MELBOURNE",
+      "artist":"Ray Thomas",
+      "artdate":"1994",
+      "structure_":"Stone and brass paving inlay",
+      "easting":"320463.125",
+      "northing":"5812261.044",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8210593434182",
+         "longitude":"144.969757432433"
+      },
+      "_id":"5ff7c73dd1be578bb6f389bd",
+      "asset_typ":"Art",
+      "name":"Apollo Belvedere",
+      "addresspt":"90 St Kilda Road, SOUTHBANK",
+      "artist":"unknown",
+      "artdate":"unknown",
+      "structure_":"Marble and granite bust",
+      "easting":"321308.511",
+      "northing":"5812096.724",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8188433297473",
+         "longitude":"144.945067618085"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c1",
+      "asset_typ":"Art",
+      "name":"Aqualung",
+      "addresspt":"15 Victoria Harbour Promenade, DOCKLANDS",
+      "artist":"John Mead",
+      "artdate":"2006",
+      "structure_":"Abstract sculpture",
+      "easting":"319129.799",
+      "northing":"5812295.098",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8098275629139",
+         "longitude":"144.96404608881"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c6",
+      "asset_typ":"Art",
+      "name":"Architectural Fragment",
+      "addresspt":"324 Swanston Street, MELBOURNE",
+      "artist":"Petrus Spronk",
+      "artdate":"1992",
+      "structure_":"Bluestone sculpture",
+      "easting":"320778.61",
+      "northing":"5813332.128",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8155779391708",
+         "longitude":"144.946321235909"
+      },
+      "_id":"5ff7c73dd1be578bb6f389da",
+      "asset_typ":"Art",
+      "name":"Art Wall",
+      "addresspt":"160 Harbour Esplanade, DOCKLANDS",
+      "artist":"Peter D. Cole",
+      "artdate":"2000",
+      "structure_":"3D Installation",
+      "easting":"319232.184",
+      "northing":"5812659.874",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8156948270259",
+         "longitude":"144.946202651563"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a23",
+      "asset_typ":"Art",
+      "name":"Art Wall",
+      "addresspt":"160 Harbour Esplanade, DOCKLANDS",
+      "artist":"Peter D. Cole",
+      "artdate":"2000",
+      "structure_":"3D Installation",
+      "easting":"319222.03",
+      "northing":"5812646.674",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8158205285983",
+         "longitude":"144.946136474106"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a2a",
+      "asset_typ":"Art",
+      "name":"Art Wall",
+      "addresspt":"156 Harbour Esplanade, DOCKLANDS",
+      "artist":"Peter D. Cole",
+      "artdate":"2000",
+      "structure_":"3D Installation",
+      "easting":"319216.512",
+      "northing":"5812632.597",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8186937927645",
+         "longitude":"144.946856332947"
+      },
+      "_id":"5ff7c73dd1be578bb6f389bf",
+      "asset_typ":"Art",
+      "name":"Aurora",
+      "addresspt":"96 Harbour Esplanade, DOCKLANDS",
+      "artist":"Geoffrey Bartlett",
+      "artdate":"2005",
+      "structure_":"Stainless steel",
+      "easting":"319286.89",
+      "northing":"5812315.154",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8118220481066",
+         "longitude":"144.982657048965"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c2",
+      "asset_typ":"Art",
+      "name":"Australia Today and Tomorrow",
+      "addresspt":"152 Clarendon Street, EAST MELBOURNE",
+      "artist":"Karl Duldig",
+      "artdate":"1970",
+      "structure_":"Bronze sculpture",
+      "easting":"322421.849",
+      "northing":"5813146.352",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8272124550956",
+         "longitude":"144.972973880253"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c5",
+      "asset_typ":"Monument",
+      "name":"Australian Hellenic War Memorial",
+      "addresspt":"Kings Domain, Birdwood Ave, MELBOURNE",
+      "artist":"Evangelos Sakaris; RBA Architects and Conservation Consultants",
+      "artdate":"2001",
+      "structure_":"Granite and basalt memorial",
+      "easting":"321606.4556",
+      "northing":"5811420.08663",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8024840905196",
+         "longitude":"144.963242826387"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ba",
+      "asset_typ":"Fountain",
+      "name":"Bali Memorial",
+      "addresspt":"Lincoln Square, Swanston Street, CARLTON",
+      "artist":"Unknown",
+      "artdate":"2003",
+      "structure_":"Granite, concrete and stainless steel",
+      "easting":"320690.12861",
+      "northing":"5814145.46216",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8024246248361",
+         "longitude":"144.963256124373"
+      },
+      "_id":"5ff7c73dd1be578bb6f389bb",
+      "asset_typ":"Fountain",
+      "name":"Bali Memorial",
+      "addresspt":"Lincoln Square, Swanston Street, CARLTON",
+      "artist":"Unknown",
+      "artdate":"2003",
+      "structure_":"Granite, concrete and stainless steel",
+      "easting":"320691.15562",
+      "northing":"5814152.08636",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8140548689972",
+         "longitude":"144.96733868317"
+      },
+      "_id":"5ff7c73dd1be578bb6f38966",
+      "asset_typ":"Art",
+      "name":"Bandstand",
+      "addresspt":"200 Little Collins Street, MELBOURNE",
+      "artist":"George Dodd",
+      "artdate":"1864",
+      "structure_":"Concrete bandstand",
+      "easting":"321078.689",
+      "northing":"5812869.353",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8164236569551",
+         "longitude":"144.967061542145"
+      },
+      "_id":"5ff7c73dd1be578bb6f38972",
+      "asset_typ":"Art",
+      "name":"Beyond the Ocean of Existence",
+      "addresspt":"44 Swanston Street, MELBOURNE",
+      "artist":"Loretta Quinn",
+      "artdate":"1993",
+      "structure_":"Bronze sculpture on granite plinth",
+      "easting":"321060.012",
+      "northing":"5812605.967",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7953526839703",
+         "longitude":"144.940687314302"
+      },
+      "_id":"5ff7c73dd1be578bb6f3896a",
+      "asset_typ":"Art",
+      "name":"Bird Panels",
+      "addresspt":"76 Canning Street",
+      "artist":"Di Christensen and Bernice McPherson",
+      "artdate":"1995",
+      "structure_":"Stainless-steel panels",
+      "easting":"318686.757",
+      "northing":"5814893.278",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8185922758306",
+         "longitude":"144.971796362269"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b1",
+      "asset_typ":"Art",
+      "name":"Birrarung Wilam",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Vicki Couzens, Lee Darroch and Treahna Hamm",
+      "artdate":"2006",
+      "structure_":"Stone, wood, stainless steel, bronze, nickel and audio installation",
+      "easting":"321482.04145",
+      "northing":"5812374.38429",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8185872210924",
+         "longitude":"144.971784281509"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b2",
+      "asset_typ":"Art",
+      "name":"Birrarung Wilam",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Vicki Couzens, Lee Darroch and Treahna Hamm",
+      "artdate":"2006",
+      "structure_":"Stone, wood, stainless steel, bronze, nickel and audio installation",
+      "easting":"321480.96584",
+      "northing":"5812374.9221",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8185954753426",
+         "longitude":"144.971808963839"
+      },
+      "_id":"5ff7c73dd1be578bb6f389fb",
+      "asset_typ":"Art",
+      "name":"Birrarung Wilam",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Vicki Couzens, Lee Darroch and Treahna Hamm",
+      "artdate":"2006",
+      "structure_":"Stone, wood, stainless steel, bronze, nickel and audio installation",
+      "easting":"321483.15843",
+      "northing":"5812374.05334",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.818595693813",
+         "longitude":"144.971821646868"
+      },
+      "_id":"5ff7c73dd1be578bb6f389fc",
+      "asset_typ":"Art",
+      "name":"Birrarung Wilam",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Vicki Couzens, Lee Darroch and Treahna Hamm",
+      "artdate":"2006",
+      "structure_":"Stone, wood, stainless steel, bronze, nickel and audio installation",
+      "easting":"321484.27541",
+      "northing":"5812374.05334",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8185907034456",
+         "longitude":"144.971834942502"
+      },
+      "_id":"5ff7c73dd1be578bb6f389fd",
+      "asset_typ":"Art",
+      "name":"Birrarung Wilam",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Vicki Couzens, Lee Darroch and Treahna Hamm",
+      "artdate":"2006",
+      "structure_":"Stone, wood, stainless steel, bronze, nickel and audio installation",
+      "easting":"321485.43376",
+      "northing":"5812374.63251",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8185914278651",
+         "longitude":"144.971866175309"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a17",
+      "asset_typ":"Art",
+      "name":"Birrarung Wilam",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Vicki Couzens, Lee Darroch and Treahna Hamm",
+      "artdate":"2006",
+      "structure_":"Stone, wood, stainless steel, bronze, nickel and audio installation",
+      "easting":"321488.18484",
+      "northing":"5812374.61183",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8195705617737",
+         "longitude":"144.971824407255"
+      },
+      "_id":"5ff7c73dd1be578bb6f38965",
+      "asset_typ":"Monument",
+      "name":"Black Swan Memorial Drinking Fountain",
+      "addresspt":"Alexandra Gardens, St Kilda Road, MELBOURNE",
+      "artist":"Raymond B. Ewers",
+      "artdate":"1974",
+      "structure_":"Bluestone drinking fountain with bronze plaque",
+      "easting":"321486.867",
+      "northing":"5812265.881",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8220182164578",
+         "longitude":"144.946871022845"
+      },
+      "_id":"5ff7c73dd1be578bb6f38967",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"13 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319296.292",
+      "northing":"5811946.283",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8219107218802",
+         "longitude":"144.946765134735"
+      },
+      "_id":"5ff7c73dd1be578bb6f3896e",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"15 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319286.709",
+      "northing":"5811958.006",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8219308131053",
+         "longitude":"144.946798545611"
+      },
+      "_id":"5ff7c73dd1be578bb6f38973",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"15 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319289.699",
+      "northing":"5811955.841",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8219524131263",
+         "longitude":"144.946745954515"
+      },
+      "_id":"5ff7c73dd1be578bb6f3897a",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"15 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319285.122",
+      "northing":"5811953.343",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8218628257359",
+         "longitude":"144.947009412249"
+      },
+      "_id":"5ff7c73dd1be578bb6f38981",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"15 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319308.094",
+      "northing":"5811963.794",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8219554500409",
+         "longitude":"144.947041997573"
+      },
+      "_id":"5ff7c73dd1be578bb6f38987",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"13 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319311.189",
+      "northing":"5811953.579",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8219335169736",
+         "longitude":"144.946938744265"
+      },
+      "_id":"5ff7c73dd1be578bb6f389de",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"15 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319302.046",
+      "northing":"5811955.813",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8219853561923",
+         "longitude":"144.946774675143"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a16",
+      "asset_typ":"Art",
+      "name":"Blowhole",
+      "addresspt":"13 Harbour Esplanade, DOCKLANDS",
+      "artist":"Duncan Stemler",
+      "artdate":"2005",
+      "structure_":"Stainless-steel and aluminium sculpture",
+      "easting":"319287.731",
+      "northing":"5811949.743",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8137675376712",
+         "longitude":"144.982771754404"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a13",
+      "asset_typ":"Art",
+      "name":"Boy and Pelican",
+      "addresspt":"84 Clarendon Street, EAST MELBOURNE",
+      "artist":"William Leslie Bowles",
+      "artdate":"1936",
+      "structure_":"Pyrmont sandstone sculpture",
+      "easting":"322436.609",
+      "northing":"5812930.688",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8121217645873",
+         "longitude":"144.97970321858"
+      },
+      "_id":"5ff7c73dd1be578bb6f389fe",
+      "asset_typ":"Fountain",
+      "name":"Boy and Urn",
+      "addresspt":"4 Lansdowne Street, EAST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"unknown",
+      "structure_":"Bronze fountain",
+      "easting":"322162.529",
+      "northing":"5813107.474",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8143892616922",
+         "longitude":"144.979910150531"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a00",
+      "asset_typ":"Art",
+      "name":"Boy on a Turtle",
+      "addresspt":"Cook's Cottage, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"c. 1850",
+      "structure_":"Bronze statue",
+      "easting":"322186.187",
+      "northing":"5812856.254",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7889280817664",
+         "longitude":"144.956058081184"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ce",
+      "asset_typ":"Monument",
+      "name":"Burke and Wills Cairn",
+      "addresspt":"6 The Avenue, PARKVILLE",
+      "artist":"unknown",
+      "artdate":"1890",
+      "structure_":"Stone cairn",
+      "easting":"320024.638",
+      "northing":"5815635.904",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8156337321238",
+         "longitude":"144.966703993713"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c8",
+      "asset_typ":"Monument",
+      "name":"Burke and Wills Monument",
+      "addresspt":"84 Swanston Street, MELBOURNE",
+      "artist":"Charles Summers",
+      "artdate":"1865",
+      "structure_":"Bronze statue with granite pedestal",
+      "easting":"321026.629",
+      "northing":"5812692.936",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8047443111517",
+         "longitude":"144.972452056885"
+      },
+      "_id":"5ff7c73dd1be578bb6f389fa",
+      "asset_typ":"Monument",
+      "name":"Bust of Dr Louis Smith",
+      "addresspt":"9 Nicholson Street, CARLTON",
+      "artist":"Edgar Bertram Mackennal",
+      "artdate":"1914",
+      "structure_":"Bronze bust with granite pedestal",
+      "easting":"321506.409",
+      "northing":"5813912.29",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8137257454688",
+         "longitude":"144.972615474"
+      },
+      "_id":"5ff7c73dd1be578bb6f38990",
+      "asset_typ":"Art",
+      "name":"Bust of Sir Samuel Gillott",
+      "addresspt":"37 Collins Street, MELBOURNE",
+      "artist":"Charles Douglas Richardson",
+      "artdate":"1905",
+      "structure_":"Marble statue",
+      "easting":"321542.425",
+      "northing":"5812915.969",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8145792919449",
+         "longitude":"144.979494361804"
+      },
+      "_id":"5ff7c73dd1be578bb6f3897d",
+      "asset_typ":"Monument",
+      "name":"Captain Cook",
+      "addresspt":"Cook's Cottage, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"Marc Clark",
+      "artdate":"1973",
+      "structure_":"Bronze statue",
+      "easting":"322150.04",
+      "northing":"5812834.375",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8169633123315",
+         "longitude":"144.967487606224"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d3",
+      "asset_typ":"Monument",
+      "name":"Captain Matthew Flinders Statue",
+      "addresspt":"30 Swanston Street, MELBOURNE",
+      "artist":"Sculptor Charles Web Gilbert; founder F. Barbedienne",
+      "artdate":"1923",
+      "structure_":"Bronze statue with granite plinth",
+      "easting":"321098.821",
+      "northing":"5812546.899",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8217384627114",
+         "longitude":"144.949169769731"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a4b",
+      "asset_typ":"Art",
+      "name":"Car Nuggets",
+      "addresspt":"15 Batmans Hill Drive, DOCKLANDS",
+      "artist":"Patricia Piccinini",
+      "artdate":"2006",
+      "structure_":"Sculptural forms",
+      "easting":"319497.953",
+      "northing":"5811981.772",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8217244747982",
+         "longitude":"144.949168740276"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a4d",
+      "asset_typ":"Art",
+      "name":"Car Nuggets",
+      "addresspt":"15 Batmans Hill Drive, DOCKLANDS",
+      "artist":"Patricia Piccinini",
+      "artdate":"2006",
+      "structure_":"Sculptural forms",
+      "easting":"319497.829",
+      "northing":"5811983.322",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8217401147159",
+         "longitude":"144.949142099572"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a60",
+      "asset_typ":"Art",
+      "name":"Car Nuggets",
+      "addresspt":"15 Batmans Hill Drive, DOCKLANDS",
+      "artist":"Patricia Piccinini",
+      "artdate":"2006",
+      "structure_":"Sculptural forms",
+      "easting":"319495.522",
+      "northing":"5811981.535",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8136957980367",
+         "longitude":"144.968513035861"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a3",
+      "asset_typ":"Art",
+      "name":"Ceremony and Vehicle for Conveying Spirit",
+      "addresspt":"114 Russell Street, MELBOURNE",
+      "artist":"Maurie Hughes",
+      "artdate":"1996",
+      "structure_":"Silicon bronze, galvanized and mild steel sculpture",
+      "easting":"321181.203",
+      "northing":"5812911.446",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8112537359422",
+         "longitude":"144.969347727216"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a42",
+      "asset_typ":"Art",
+      "name":"Chinese Lion Guardians",
+      "addresspt":"Cohen Pl, CHINATOWN",
+      "artist":"unknown",
+      "artdate":"unknown",
+      "structure_":"Marble lions",
+      "easting":"321248.7929",
+      "northing":"5813184.029725",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8114750198729",
+         "longitude":"144.953165492089"
+      },
+      "_id":"5ff7c73dd1be578bb6f3899f",
+      "asset_typ":"Art",
+      "name":"City Living",
+      "addresspt":"5 Jeffcott Street, WEST MELBOURNE",
+      "artist":"Andrew Rogers",
+      "artdate":"1995",
+      "structure_":"Bronze sculpture",
+      "easting":"319824.714",
+      "northing":"5813128.384",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7956635739188",
+         "longitude":"144.938934811008"
+      },
+      "_id":"5ff7c73dd1be578bb6f3899e",
+      "asset_typ":"Fountain",
+      "name":"Clayton Reserve Drinking Fountain",
+      "addresspt":"241 Macaulay Road, NORTH MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1935",
+      "structure_":"Granite drinking fountain",
+      "easting":"318533.201",
+      "northing":"5814855.378",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151582937289",
+         "longitude":"144.966495940551"
+      },
+      "_id":"5ff7c73dd1be578bb6f3896c",
+      "asset_typ":"Art",
+      "name":"Coat of Arms",
+      "addresspt":"98 Swanston Street, MELBOURNE",
+      "artist":"City of Melbourne",
+      "artdate":"1992",
+      "structure_":"Brass pavement inlay",
+      "easting":"321007.165",
+      "northing":"5812745.295",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150481212229",
+         "longitude":"144.966444170774"
+      },
+      "_id":"5ff7c73dd1be578bb6f38976",
+      "asset_typ":"Art",
+      "name":"Coat of Arms",
+      "addresspt":"104 Swanston Street, MELBOURNE",
+      "artist":"City of Melbourne",
+      "artdate":"1992",
+      "structure_":"Brass pavement inlay",
+      "easting":"321002.342",
+      "northing":"5812757.421",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151225543656",
+         "longitude":"144.966479473485"
+      },
+      "_id":"5ff7c73dd1be578bb6f38977",
+      "asset_typ":"Art",
+      "name":"Coat of Arms",
+      "addresspt":"100 Swanston Street, MELBOURNE",
+      "artist":"City of Melbourne",
+      "artdate":"1992",
+      "structure_":"Brass pavement inlay",
+      "easting":"321005.63",
+      "northing":"5812749.23",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.815081401373",
+         "longitude":"144.966458869013"
+      },
+      "_id":"5ff7c73dd1be578bb6f38978",
+      "asset_typ":"Art",
+      "name":"Coat of Arms",
+      "addresspt":"102 Swanston Street, MELBOURNE",
+      "artist":"City of Melbourne",
+      "artdate":"1992",
+      "structure_":"Brass pavement inlay",
+      "easting":"321003.716",
+      "northing":"5812753.757",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8097706189194",
+         "longitude":"144.973483976518"
+      },
+      "_id":"5ff7c73dd1be578bb6f38969",
+      "asset_typ":"Fountain",
+      "name":"Coles Fountain",
+      "addresspt":"517 Albert Street, EAST MELBOURNE",
+      "artist":"Robert Woodward",
+      "artdate":"1981",
+      "structure_":"Stainless-steel fountain on bluestone paving",
+      "easting":"321609.36",
+      "northing":"5813356.512",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7966290593729",
+         "longitude":"144.924306764698"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a36",
+      "asset_typ":"Art",
+      "name":"Commonwealth Games Aquatic Sculptures - Eels",
+      "addresspt":"Kensington Community Recreation Centre, KENSINGTON",
+      "artist":"unknown",
+      "artdate":"2006",
+      "structure_":"Painted steel sculptures",
+      "easting":"317247.51149",
+      "northing":"5814719.73186",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8138743431045",
+         "longitude":"144.978595506099"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a03",
+      "asset_typ":"Fountain",
+      "name":"Conservatory Fountain",
+      "addresspt":"Conservatory, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"unknown",
+      "altname":"Boy with Serpent, and Ornamental Fountain",
+      "artdate":"c. 1900",
+      "structure_":"Cast-iron and granite drinking fountain",
+      "easting":"322069.22",
+      "northing":"5812910.888",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202460956887",
+         "longitude":"144.960662536874"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a04",
+      "asset_typ":"Art",
+      "name":"Constellation",
+      "addresspt":"469 Flinders Street, MELBOURNE",
+      "artist":"Bruce Armstrong and Geoffrey Bartlett",
+      "artdate":"1996",
+      "structure_":"Stainless steel, copper and Cyrpus-pine sculpture",
+      "easting":"320505.971",
+      "northing":"5812169.526",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202715915496",
+         "longitude":"144.960597777255"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a05",
+      "asset_typ":"Art",
+      "name":"Constellation",
+      "addresspt":"469 Flinders Street, MELBOURNE",
+      "artist":"Bruce Armstrong and Geoffrey Bartlett",
+      "artdate":"1996",
+      "structure_":"Stainless steel, copper and Cyrpus-pine sculpture",
+      "easting":"320500.332",
+      "northing":"5812166.572",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202185496201",
+         "longitude":"144.96072531937"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a06",
+      "asset_typ":"Art",
+      "name":"Constellation",
+      "addresspt":"469 Flinders Street, MELBOURNE",
+      "artist":"Bruce Armstrong and Geoffrey Bartlett",
+      "artdate":"1996",
+      "structure_":"Stainless steel, copper and Cyrpus-pine sculpture",
+      "easting":"320511.43",
+      "northing":"5812172.703",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201898206677",
+         "longitude":"144.960789659507"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a07",
+      "asset_typ":"Art",
+      "name":"Constellation",
+      "addresspt":"399 Flinders Street, MELBOURNE",
+      "artist":"Bruce Armstrong and Geoffrey Bartlett",
+      "artdate":"1996",
+      "structure_":"Stainless steel, copper and Cyrpus-pine sculpture",
+      "easting":"320517.024",
+      "northing":"5812176.015",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202999349125",
+         "longitude":"144.960534464342"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a08",
+      "asset_typ":"Art",
+      "name":"Constellation",
+      "addresspt":"469 Flinders Street, MELBOURNE",
+      "artist":"Bruce Armstrong and Geoffrey Bartlett",
+      "artdate":"1996",
+      "structure_":"Stainless steel, copper and Cyrpus-pine sculpture",
+      "easting":"320494.827",
+      "northing":"5812163.305",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8191896959513",
+         "longitude":"144.946998425444"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e8",
+      "asset_typ":"Art",
+      "name":"Continuum",
+      "addresspt":"17 Waterview Walk, DOCKLANDS",
+      "artist":"Michael Snape",
+      "artdate":"2005",
+      "structure_":"Sculpture",
+      "easting":"319300.607",
+      "northing":"5812260.4",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7852874613137",
+         "longitude":"144.966190055728"
+      },
+      "_id":"5ff7c73dd1be578bb6f38998",
+      "asset_typ":"Monument",
+      "name":"Councillor William Cook Memorial Drinking Fountain",
+      "addresspt":"266 Macpherson Street",
+      "artist":"Charles Douglas Richardson",
+      "artdate":"1910",
+      "structure_":"Granite, marble and bluestone drinking fountain",
+      "easting":"320908.093",
+      "northing":"5816059.351",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8171223164672",
+         "longitude":"144.945279753599"
+      },
+      "_id":"5ff7c73dd1be578bb6f38974",
+      "asset_typ":"Art",
+      "name":"Cow Up A Tree",
+      "addresspt":"135 Harbour Esplanade, DOCKLANDS",
+      "artist":"John Kelly",
+      "artdate":"2000",
+      "structure_":"Bronze sculpture",
+      "easting":"319144.272",
+      "northing":"5812486.484",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8072067768463",
+         "longitude":"144.959271667297"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a2c",
+      "asset_typ":"Art",
+      "name":"Dairy Hall Window",
+      "addresspt":"62 Therry Street, MELBOURNE",
+      "artist":"Artist Bernice McPherson; architect Craig Perry",
+      "artdate":"1996",
+      "structure_":"Glass and steel window",
+      "easting":"320351.929",
+      "northing":"5813613.775",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8143067586398",
+         "longitude":"144.978499373084"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a2d",
+      "asset_typ":"Art",
+      "name":"Diana and the Hounds",
+      "addresspt":"Conservatory, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"Sculptor William Leslie Bowles; founder A.B. Brunton",
+      "artdate":"1940",
+      "structure_":"Cast bronze statue on granite pedestal",
+      "easting":"322061.795",
+      "northing":"5812862.722",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7975991142625",
+         "longitude":"144.967306467399"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a62",
+      "asset_typ":"Fountain",
+      "name":"Dinny O'Hearn Fountain",
+      "addresspt":"331 Lygon Street, CARLTON",
+      "artist":"unknown",
+      "artdate":"1981",
+      "structure_":"Cast-iron and enamel fountain",
+      "easting":"321036.125",
+      "northing":"5814695.319",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8118884344659",
+         "longitude":"144.980015806146"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a2f",
+      "asset_typ":"Fountain",
+      "name":"Dolphin Fountain",
+      "addresspt":"4 Lansdowne Street, EAST MELBOURNE",
+      "artist":"June Arnold",
+      "artdate":"1982",
+      "structure_":"Bronze and granite fountain",
+      "easting":"322189.487",
+      "northing":"5813133.961",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8212404231762",
+         "longitude":"144.970769495267"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a2e",
+      "asset_typ":"Art",
+      "name":"Domed Drinking Fountain",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"unknown",
+      "structure_":"Marble and granite drinking fountain",
+      "easting":"321398.034",
+      "northing":"5812078.566",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.806629256046",
+         "longitude":"144.959908916093"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a3a",
+      "asset_typ":"Monument",
+      "name":"Duke and Duchess of York Memorial",
+      "addresspt":"512 Elizabeth Street, MELBOURNE",
+      "artist":"J. Churchman & Sons",
+      "altname":"Temperance",
+      "artdate":"1901",
+      "structure_":"Marble, granite and sandstone drinking fountain,",
+      "easting":"320406.634",
+      "northing":"5813679.086",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8207247436456",
+         "longitude":"144.952391322514"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a3e",
+      "asset_typ":"Art",
+      "name":"Eagle",
+      "addresspt":"22 Wurundjeri Way, DOCKLANDS",
+      "artist":"Bruce Armstrong",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"319779.06",
+      "northing":"5812100.482",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8236122113264",
+         "longitude":"144.970418561306"
+      },
+      "_id":"5ff7c73dd1be578bb6f3896d",
+      "asset_typ":"Monument",
+      "name":"Edmund Fitzgibbon Memorial",
+      "addresspt":"208 St Kilda Road, SOUTHBANK",
+      "artist":"James White",
+      "artdate":"1908",
+      "structure_":"Bronze statue with Harcourt granite pedestal",
+      "easting":"321372.863",
+      "northing":"5811814.707",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8297554405406",
+         "longitude":"144.974419726206"
+      },
+      "_id":"5ff7c73dd1be578bb6f3897c",
+      "asset_typ":"Monument",
+      "name":"Edward George Honey Memorial",
+      "addresspt":"Old Observatory Site, Birdwood Avenue, MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1965",
+      "structure_":"Stone boulder with bronze and aluminium plaque",
+      "easting":"321739.835",
+      "northing":"5811140.663",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8191221824373",
+         "longitude":"144.97407578866"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a4e",
+      "asset_typ":"Art",
+      "name":"Eel Trap",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Fiona Clarke and Ken McKean",
+      "artdate":"2003",
+      "structure_":"Plate-steel sculpture",
+      "easting":"321683.96784",
+      "northing":"5812319.93722",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8071550195592",
+         "longitude":"144.965588387005"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b0",
+      "asset_typ":"Monument",
+      "name":"Eight Hour Day Memorial",
+      "addresspt":"399 Russell Street, MELBOURNE",
+      "artist":"Percival Ball (?)",
+      "artdate":"1900-1903",
+      "structure_":"Granite, bronze and gold-leaf monument with stone pedestal",
+      "easting":"320907.932",
+      "northing":"5813631.647",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.805456726498",
+         "longitude":"144.971368298725"
+      },
+      "_id":"5ff7c73dd1be578bb6f389cd",
+      "asset_typ":"Fountain",
+      "name":"Exhibition Fountain",
+      "addresspt":"9 Nicholson Street, CARLTON",
+      "artist":"Josef Hochgurtel",
+      "altname":"Hochgurtel Fountain",
+      "artdate":"1880",
+      "structure_":"Portland cement fountain",
+      "easting":"321412.707",
+      "northing":"5813831.165",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8134099807547",
+         "longitude":"144.98110228888"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a2",
+      "asset_typ":"Art",
+      "name":"Fairies Tree",
+      "addresspt":"88 Clarendon Street, EAST MELBOURNE",
+      "artist":"Ola Cohn",
+      "artdate":"1934",
+      "structure_":"Red Gum carving",
+      "easting":"322288.784",
+      "northing":"5812967.189",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8211093204271",
+         "longitude":"144.969673137809"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a0",
+      "asset_typ":"Art",
+      "name":"Farnex Hercules",
+      "addresspt":"90 St Kilda Road, SOUTHBANK",
+      "artist":"unknown",
+      "artdate":"1780",
+      "structure_":"Marble bust with granite pedestal",
+      "easting":"321301.212",
+      "northing":"5812091.017",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8211525582271",
+         "longitude":"144.964238031747"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ed",
+      "asset_typ":"Art",
+      "name":"Fault Line",
+      "addresspt":"8 Riverside Quay, SOUTHBANK",
+      "artist":"Hossein Valamesh",
+      "artdate":"1996",
+      "structure_":"Sandstone, wood and bronze sculpture",
+      "easting":"320822.896",
+      "northing":"5812075.805",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8186738864394",
+         "longitude":"144.974167165492"
+      },
+      "_id":"5ff7c73dd1be578bb6f38963",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321690.93246",
+      "northing":"5812369.85732",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8186973319473",
+         "longitude":"144.974158800684"
+      },
+      "_id":"5ff7c73dd1be578bb6f38968",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321690.25256",
+      "northing":"5812367.23968",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8186882333343",
+         "longitude":"144.974128540287"
+      },
+      "_id":"5ff7c73dd1be578bb6f3896b",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321687.56694",
+      "northing":"5812368.19155",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187157253887",
+         "longitude":"144.974141691478"
+      },
+      "_id":"5ff7c73dd1be578bb6f3897e",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321688.79077",
+      "northing":"5812365.16598",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187628091159",
+         "longitude":"144.974136155999"
+      },
+      "_id":"5ff7c73dd1be578bb6f3897f",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321688.41682",
+      "northing":"5812359.93072",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187508719706",
+         "longitude":"144.974172398306"
+      },
+      "_id":"5ff7c73dd1be578bb6f38983",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321691.57837",
+      "northing":"5812361.32452",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187207058813",
+         "longitude":"144.974110660022"
+      },
+      "_id":"5ff7c73dd1be578bb6f3898a",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321686.07115",
+      "northing":"5812364.55406",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187745168339",
+         "longitude":"144.974175613725"
+      },
+      "_id":"5ff7c73dd1be578bb6f3898b",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321691.91832",
+      "northing":"5812358.70689",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187404835153",
+         "longitude":"144.974102781582"
+      },
+      "_id":"5ff7c73dd1be578bb6f38993",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321685.42524",
+      "northing":"5812362.34438",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8186610069437",
+         "longitude":"144.97413082954"
+      },
+      "_id":"5ff7c73dd1be578bb6f389cc",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321687.70292",
+      "northing":"5812371.21712",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187023628084",
+         "longitude":"144.974201916576"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ff",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321694.06002",
+      "northing":"5812366.76375",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8187182202074",
+         "longitude":"144.974179856228"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a15",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321692.15629",
+      "northing":"5812364.96201",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8186666064737",
+         "longitude":"144.974100167285"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a5f",
+      "asset_typ":"Art",
+      "name":"Federation Bells",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Designers Neil McLachlan and Anton Hasell",
+      "artdate":"2002",
+      "structure_":"Bronze-alloy bells on galvanised-steel poles",
+      "easting":"321685.0173",
+      "northing":"5812370.53722",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8198227493892",
+         "longitude":"144.951104886543"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d6",
+      "asset_typ":"Art",
+      "name":"Feng Shui",
+      "addresspt":"698 Collins Street, DOCKLANDS",
+      "artist":"Guan Wei",
+      "artdate":"2003",
+      "structure_":"Multi-panel painting",
+      "easting":"319663.626",
+      "northing":"5812198.09",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8049009757854",
+         "longitude":"144.972849834667"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a1b",
+      "asset_typ":"Fountain",
+      "name":"French Fountain",
+      "addresspt":"9 Nicholson Street, CARLTON",
+      "artist":"unknown",
+      "artdate":"c. 1880",
+      "structure_":"Bronze fountain with granite plinth",
+      "easting":"321541.808",
+      "northing":"5813895.665",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8127260372375",
+         "longitude":"144.973942531552"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ac",
+      "asset_typ":"Monument",
+      "name":"General Charles Gordon Memorial",
+      "addresspt":"74 Spring Street, EAST MELBOURNE",
+      "artist":"Sculptor Hamo Thornycroft; founder J. Moore",
+      "artdate":"1887",
+      "structure_":"Limestone, Harcourt granite and bronze memorial",
+      "easting":"321656.843",
+      "northing":"5813029.437",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7921729538839",
+         "longitude":"144.958090253028"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a1c",
+      "asset_typ":"Monument",
+      "name":"George Hawkins Ievers Memorial Drinking Fountain",
+      "addresspt":"147 Royal Parade, PARKVILLE",
+      "artist":"Charles Douglas Richardson",
+      "artdate":"1916",
+      "structure_":"Granite, marble and bluestone drinking fountain",
+      "easting":"320211.462",
+      "northing":"5815279.746",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8147653368517",
+         "longitude":"144.968373912562"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e5",
+      "asset_typ":"Fountain",
+      "name":"Georges Fountain",
+      "addresspt":"152 Collins Street, MELBOURNE",
+      "artist":"Peter Staughton",
+      "artdate":"1981",
+      "structure_":"Bluestone and concrete fountain",
+      "easting":"321171.537",
+      "northing":"5812792.497",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8074703867589",
+         "longitude":"144.968593306036"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d7",
+      "asset_typ":"Fountain",
+      "name":"Grant's Fountain",
+      "addresspt":"353 Exhibition Street, MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1901",
+      "structure_":"Stone fountain",
+      "easting":"321173.248",
+      "northing":"5813602.409",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8115435409616",
+         "longitude":"144.982950898766"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e4",
+      "asset_typ":"Fountain",
+      "name":"Grey Street Fountain",
+      "addresspt":"162 Clarendon Street, EAST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1863",
+      "structure_":"Cement fountain",
+      "easting":"322447.051",
+      "northing":"5813177.816",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8031427973572",
+         "longitude":"144.969874326021"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f3",
+      "asset_typ":"Fountain",
+      "name":"Grollo Fountain",
+      "addresspt":"169 Rathdowne Street, CARLTON",
+      "artist":"unknown",
+      "artdate":"2001",
+      "structure_":"Bluestone and granite fountain",
+      "easting":"321275.595",
+      "northing":"5814085.075",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8256393190193",
+         "longitude":"144.976761073829"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a12",
+      "asset_typ":"Art",
+      "name":"Grotto Waterfall",
+      "addresspt":"Kings Domain, Alexandra Avenue, MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1981",
+      "structure_":"Basalt and cement",
+      "easting":"321936.01",
+      "northing":"5811601.88",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8243371974094",
+         "longitude":"144.947619116755"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d5",
+      "asset_typ":"Art",
+      "name":"HeartLand",
+      "addresspt":"52 River Esplanade, DOCKLANDS",
+      "artist":"Karen Casey",
+      "artdate":"2003",
+      "structure_":"Animated Image",
+      "easting":"319367.797",
+      "northing":"5811690.401",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8033418056724",
+         "longitude":"144.949739183347"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e2",
+      "asset_typ":"Art",
+      "name":"Henderson Drinking Fountain",
+      "addresspt":"76 Errol Street, NORTH MELBOURNE",
+      "artist":"Walter MacFarlane",
+      "altname":"Hotham Ornamental Fountain",
+      "artdate":"1877",
+      "structure_":"Cast-iron drinking fountain",
+      "easting":"319503.271",
+      "northing":"5814024.282",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150299769363",
+         "longitude":"144.974931527616"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ab",
+      "asset_typ":"Art",
+      "name":"Horse Hitching Post",
+      "addresspt":"2 Spring Street, EAST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"c. 1900",
+      "structure_":"Stone post",
+      "easting":"321749.451",
+      "northing":"5812775.666",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7949047942895",
+         "longitude":"144.940383521588"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d9",
+      "asset_typ":"Art",
+      "name":"Hotham Hill Paving Inlay",
+      "addresspt":"76 Canning Street",
+      "artist":"Bernice McPherson",
+      "artdate":"1995",
+      "structure_":"Ceramic tiles and asphalt",
+      "easting":"318658.911",
+      "northing":"5814942.389",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7949351874639",
+         "longitude":"144.940340735749"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a22",
+      "asset_typ":"Art",
+      "name":"Hotham Hill Seat",
+      "addresspt":"76 Canning Street",
+      "artist":"Bernice McPherson, Di Christensen and Craig Perry",
+      "structure_":"Steel seat",
+      "easting":"318655.218",
+      "northing":"5814938.934",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.820112083979",
+         "longitude":"144.947923460104"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a21",
+      "asset_typ":"Art",
+      "name":"IOU",
+      "addresspt":"7 Waterview Walk, DOCKLANDS",
+      "artist":"Mikala Dwyer",
+      "artdate":"2005",
+      "structure_":"Stainless steel and toughened glass",
+      "easting":"319384.284",
+      "northing":"5812159.836",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200830017644",
+         "longitude":"144.947894374833"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a24",
+      "asset_typ":"Art",
+      "name":"IOU",
+      "addresspt":"9 Waterview Walk, DOCKLANDS",
+      "artist":"Mikala Dwyer",
+      "artdate":"2005",
+      "structure_":"Stainless steel and toughened glass",
+      "easting":"319381.652",
+      "northing":"5812163.007",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201338075104",
+         "longitude":"144.947948917363"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a27",
+      "asset_typ":"Art",
+      "name":"IOU",
+      "addresspt":"7 Waterview Walk, DOCKLANDS",
+      "artist":"Mikala Dwyer",
+      "artdate":"2005",
+      "structure_":"Stainless steel and toughened glass",
+      "easting":"319386.577",
+      "northing":"5812157.474",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.809326383142",
+         "longitude":"144.958057203226"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a44",
+      "asset_typ":"Art",
+      "name":"Island Wave",
+      "addresspt":"404 Queen Street, MELBOURNE",
+      "artist":"Lisa Young",
+      "artdate":"2003",
+      "structure_":"Steel sculpture on concrete footing",
+      "easting":"320250.148",
+      "northing":"5813376.235",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7891381500076",
+         "longitude":"144.957053809565"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d8",
+      "asset_typ":"Monument",
+      "name":"James C. Roberts",
+      "addresspt":"4 The Avenue, PARKVILLE",
+      "artist":"unknown",
+      "artdate":"unknown",
+      "structure_":"Granite obelisk",
+      "easting":"320112.833",
+      "northing":"5815614.511",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8081354860573",
+         "longitude":"144.957645863417"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a3f",
+      "asset_typ":"Monument",
+      "name":"John Batman Memorial (1)",
+      "addresspt":"439 Queen Street, MELBOURNE",
+      "artist":"J.W. Brown",
+      "artdate":"unknown",
+      "structure_":"Bluestone cairn",
+      "easting":"320211.045",
+      "northing":"5813507.592",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8176597509552",
+         "longitude":"144.959772957148"
+      },
+      "_id":"5ff7c73dd1be578bb6f38985",
+      "asset_typ":"Monument",
+      "name":"John Batman Memorial (2)",
+      "addresspt":"443 Collins Street, MELBOURNE",
+      "artist":"Stanley Hammond",
+      "artdate":"1978",
+      "structure_":"Bronze statue",
+      "easting":"320421.396",
+      "northing":"5812454.813",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8136597830075",
+         "longitude":"144.976354519479"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a46",
+      "asset_typ":"Monument",
+      "name":"John F. Kennedy Memorial",
+      "addresspt":"3 Treasury Place, EAST MELBOURNE",
+      "artist":"Raymond B. Ewers",
+      "artdate":"1965",
+      "structure_":"Bronze bas-relief head set in granite boulder on landscaped site",
+      "easting":"321871.424",
+      "northing":"5812930.426",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8176770967418",
+         "longitude":"144.959995275694"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a53",
+      "asset_typ":"Monument",
+      "name":"John Pascoe Fawkner",
+      "addresspt":"437 Collins Street, MELBOURNE",
+      "artist":"Michael Meszaros",
+      "artdate":"1978",
+      "structure_":"Bronze statue",
+      "easting":"320441.009",
+      "northing":"5812453.315",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8226717982934",
+         "longitude":"144.970988232874"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a4c",
+      "asset_typ":"Monument",
+      "name":"King Edward VII Memorial",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"Sculptor Edgar Bertram Mackennal; founder A.B. Burton",
+      "artdate":"1920",
+      "structure_":"Bronze statue with basalt and granite pedestal",
+      "easting":"321420.738",
+      "northing":"5811920.151",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8242726516388",
+         "longitude":"144.973213430025"
+      },
+      "_id":"5ff7c73dd1be578bb6f38996",
+      "asset_typ":"Monument",
+      "name":"King George V",
+      "addresspt":"Kings Domain, Alexandra Avenue, MELBOURNE",
+      "artist":"Sculptor William Leslie Bowles; founder John Galizia; stonemason G.B. Edwards & Sons",
+      "artdate":"1952",
+      "structure_":"Bronze, sandstone and granite sculpture with bluestone base",
+      "easting":"321620.46",
+      "northing":"5811746.763",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8223354912272",
+         "longitude":"144.971835332477"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a1a",
+      "asset_typ":"Monument",
+      "name":"Lady Janet Clarke Memorial",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"Herbert Black",
+      "artdate":"1913",
+      "structure_":"Concrete and stamped copper rotunda",
+      "easting":"321494.492",
+      "northing":"5811959.089",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.822086065767",
+         "longitude":"144.971811018826"
+      },
+      "_id":"5ff7c73dd1be578bb6f3899a",
+      "asset_typ":"Art",
+      "name":"Lake Waterfall",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1973",
+      "structure_":"Stone waterfall",
+      "easting":"321491.75",
+      "northing":"5811986.72",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8155485668529",
+         "longitude":"144.966892078324"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e7",
+      "asset_typ":"Art",
+      "name":"Larry LaTrobe",
+      "addresspt":"215 Collins Street, MELBOURNE",
+      "artist":"Pamela Irving",
+      "artdate":"1992 and 1996",
+      "structure_":"Bronze sculpture",
+      "easting":"321042.98",
+      "northing":"5812702.747",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8037692024891",
+         "longitude":"144.972134286246"
+      },
+      "_id":"5ff7c73dd1be578bb6f389db",
+      "asset_typ":"Art",
+      "name":"Lie of the Land",
+      "addresspt":"IMAX Theatre, Rathdowne Street, CARLTON",
+      "artist":"Fiona Foley and Chris Knowles",
+      "artdate":"1997",
+      "structure_":"Sandstone sculpture",
+      "easting":"321476.083",
+      "northing":"5814019.886",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7902053576258",
+         "longitude":"144.92393918587"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b8",
+      "asset_typ":"Art",
+      "name":"Lynch's Bridge Mosaic Mural",
+      "addresspt":"Epsom Road Underpass, KENSINGTON",
+      "artist":"Elizabeth MacKinnon",
+      "altname":"The Black Gate",
+      "artdate":"1998",
+      "structure_":"Ceramic tile mural",
+      "easting":"317199.30985",
+      "northing":"5815431.82841",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8323774569183",
+         "longitude":"144.972934293353"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a40",
+      "asset_typ":"Fountain",
+      "name":"Macpherson Robertson Fountain",
+      "addresspt":"2 Domain Road, MELBOURNE",
+      "artist":"Designer Philip Hudson; sculptor Paul Montford",
+      "artdate":"1934",
+      "structure_":"Granite, bronze and concrete fountain",
+      "easting":"321615.413",
+      "northing":"5810846.87",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8294820404839",
+         "longitude":"144.973858477761"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a41",
+      "asset_typ":"Monument",
+      "name":"Man with the Donkey",
+      "addresspt":"Shrine Of Remembrance Reserve, St Kilda Road, MELBOURNE",
+      "artist":"Wallace Anderson",
+      "altname":"Private John Simpson and His Little Donkey",
+      "artdate":"1935",
+      "structure_":"Cast bronze statue on granite pedestal",
+      "easting":"321689.779",
+      "northing":"5811169.929",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8266640358872",
+         "longitude":"144.971916610826"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a50",
+      "asset_typ":"Monument",
+      "name":"Marquis of Linlithgow",
+      "addresspt":"268 St Kilda Road, SOUTHBANK",
+      "artist":"William Birnie Rhind",
+      "artdate":"1911",
+      "structure_":"Bronze statue with granite pedestal",
+      "easting":"321512.077",
+      "northing":"5811478.922",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8140756651063",
+         "longitude":"144.97856026709"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a37",
+      "asset_typ":"Monument",
+      "name":"Mary Gilbert Memorial",
+      "addresspt":"Conservatory, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"Alisa O'Connor",
+      "artdate":"1975",
+      "structure_":"Cement fondue bust",
+      "easting":"322066.601",
+      "northing":"5812888.481",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8136024551412",
+         "longitude":"144.965808885624"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a10",
+      "asset_typ":"Art",
+      "name":"Maxims of Behaviour",
+      "addresspt":"Royal Mail House, cnr Bourke & Swanston Sts, MELBOURNE",
+      "artist":"Alexander Knox",
+      "artdate":"2008",
+      "structure_":"Kinetic light installation",
+      "easting":"320942.92361",
+      "northing":"5812916.62363",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8240134693642",
+         "longitude":"144.974151500782"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a0d",
+      "asset_typ":"Art",
+      "name":"Miraggio",
+      "addresspt":"Sidney Myer Music Bowl, Alexandra Avenue, MELBOURNE",
+      "artist":"Pino Conte",
+      "altname":"Seated Figure",
+      "artdate":"1964",
+      "structure_":"Bronze statue",
+      "easting":"321702.405",
+      "northing":"5811777.315",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8155224156707",
+         "longitude":"144.966994359113"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a4",
+      "asset_typ":"Fountain",
+      "name":"Mockridge Fountain",
+      "addresspt":"City Square, Collins St, MELBOURNE",
+      "artist":"Ron Jones, Simon Perry and Darryl Cowie",
+      "artdate":"c. 2000",
+      "structure_":"Concrete fountain",
+      "easting":"321051.9211875",
+      "northing":"5812705.8450625",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8132572520671",
+         "longitude":"144.981012379899"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a35",
+      "asset_typ":"Art",
+      "name":"Model Tudor Village",
+      "addresspt":"Cook's Cottage, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"Edgar Wilson",
+      "artdate":"1948",
+      "structure_":"Painted cement model",
+      "easting":"322280.503",
+      "northing":"5812983.966",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8170400389729",
+         "longitude":"144.989581102887"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a09",
+      "asset_typ":"Monument",
+      "name":"Motorcycle",
+      "addresspt":"10 Wellington Parade, EAST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1923",
+      "structure_":"Granite and marble memorial",
+      "easting":"323043.869",
+      "northing":"5812580.475",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.81464277494",
+         "longitude":"144.940402722846"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d2",
+      "asset_typ":"Art",
+      "name":"Ned and Dan",
+      "addresspt":"41 Caravel Lane, DOCKLANDS",
+      "artist":"Alexander Knox",
+      "artdate":"2006",
+      "structure_":"Three-dimensional frieze",
+      "easting":"318708.884",
+      "northing":"5812752.174",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8149351757693",
+         "longitude":"144.940308036389"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a19",
+      "asset_typ":"Art",
+      "name":"Ned and Dan",
+      "addresspt":"20 Doepel Way, DOCKLANDS",
+      "artist":"Alexander Knox",
+      "artdate":"2006",
+      "structure_":"Three-dimensional frieze",
+      "easting":"318701.264",
+      "northing":"5812719.544",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8146994633064",
+         "longitude":"144.940838425061"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a25",
+      "asset_typ":"Art",
+      "name":"Ned and Dan",
+      "addresspt":"21 Rakaia Way, DOCKLANDS",
+      "artist":"Alexander Knox",
+      "artdate":"2006",
+      "structure_":"Three-dimensional frieze",
+      "easting":"318747.378",
+      "northing":"5812746.73",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8148030334672",
+         "longitude":"144.940223820648"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a26",
+      "asset_typ":"Art",
+      "name":"Ned and Dan",
+      "addresspt":"16 Doepel Way, DOCKLANDS",
+      "artist":"Alexander Knox",
+      "artdate":"2006",
+      "structure_":"Three-dimensional frieze",
+      "easting":"318693.527",
+      "northing":"5812734.044",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.81452427966",
+         "longitude":"144.940608832218"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a28",
+      "asset_typ":"Art",
+      "name":"Ned and Dan",
+      "addresspt":"37 Caravel Lane, DOCKLANDS",
+      "artist":"Alexander Knox",
+      "artdate":"2006",
+      "structure_":"Three-dimensional frieze",
+      "easting":"318726.738",
+      "northing":"5812765.723",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"NoImageChange",
+         "longitude":"NoImageChange"
+      },
+      "_id":"5ff7f05a5168aa0004d6479c",
+      "name":"NoImageChange",
+      "addresspt":"NoImageChange",
+      "artist":"NoImageChange",
+      "artdate":"NoImageChange",
+      "structure_":"NoImageChange",
+      "easting":"NoImageChange",
+      "northing":"NoImageChange",
+      "image":"https://mam-images.s3-ap-southeast-2.amazonaws.com/Superunknown.jpg",
+      "imageFileName":"Superunknown.jpg",
+      "__v":0
+   },
+   {
+      "geom":{
+         "latitude":"-37.8279878719975",
+         "longitude":"144.973699196119"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a2b",
+      "asset_typ":"Monument",
+      "name":"Nurse Edith Cavell",
+      "addresspt":"294 St Kilda Road, SOUTHBANK",
+      "artist":"Margaret Baskerville",
+      "artdate":"1926",
+      "structure_":"Marble bust with cast-bronze panels on granite pedestal",
+      "easting":"321672.163",
+      "northing":"5811335.427",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.814359230579",
+         "longitude":"144.941130138162"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a3b",
+      "asset_typ":"Art",
+      "name":"Outside Inside Out",
+      "addresspt":"27 Caravel Lane, DOCKLANDS",
+      "artist":"Matthew McCarthy",
+      "artdate":"2006",
+      "structure_":"Mural",
+      "easting":"318772.226",
+      "northing":"5812785.05",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.815760994936",
+         "longitude":"144.966773537312"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a0b",
+      "asset_typ":"Art",
+      "name":"Painted Poles",
+      "addresspt":"78 Swanston Street, MELBOURNE",
+      "artist":"Maree Clarke and Sonja Hodge",
+      "artdate":"1992",
+      "structure_":"Metal poles",
+      "easting":"321033.058",
+      "northing":"5812678.948",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8162685331984",
+         "longitude":"144.967006461765"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a0f",
+      "asset_typ":"Art",
+      "name":"Painted Poles",
+      "addresspt":"50 Swanston Street, MELBOURNE",
+      "artist":"Maree Clarke and Sonja Hodge",
+      "artdate":"1992",
+      "structure_":"Metal poles",
+      "easting":"321054.789",
+      "northing":"5812623.074",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8099325911658",
+         "longitude":"144.964088812819"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a47",
+      "asset_typ":"Art",
+      "name":"Painted Poles",
+      "addresspt":"322 Swanston Street, MELBOURNE",
+      "artist":"Jennifer McCarthy",
+      "artdate":"1992",
+      "structure_":"Metal poles",
+      "easting":"320782.625",
+      "northing":"5813320.555",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.810347145096",
+         "longitude":"144.964280610813"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a48",
+      "asset_typ":"Art",
+      "name":"Painted Poles",
+      "addresspt":"308 Swanston Street, MELBOURNE",
+      "artist":"Jennifer McCarthy",
+      "artdate":"1992",
+      "structure_":"Metal poles",
+      "easting":"320800.513",
+      "northing":"5813274.922",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8100968762417",
+         "longitude":"144.964165129049"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a49",
+      "asset_typ":"Art",
+      "name":"Painted Poles",
+      "addresspt":"316 Swanston Street, MELBOURNE",
+      "artist":"Jennifer McCarthy",
+      "artdate":"1992",
+      "structure_":"Metal poles",
+      "easting":"320789.741",
+      "northing":"5813302.472",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8157410618987",
+         "longitude":"144.966836246828"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a63",
+      "asset_typ":"Art",
+      "name":"Painted Poles",
+      "addresspt":"78 Swanston Street, MELBOURNE",
+      "artist":"Maree Clarke and Sonja Hodge",
+      "artdate":"1992",
+      "structure_":"Metal poles",
+      "easting":"321038.531",
+      "northing":"5812681.28",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8196059887556",
+         "longitude":"144.951325455868"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a51",
+      "asset_typ":"Art",
+      "name":"Parrallax",
+      "addresspt":"47 Wurundjeri Way, DOCKLANDS",
+      "artist":"Ari Purhonen",
+      "artdate":"2002",
+      "structure_":"Public installation",
+      "easting":"319682.514",
+      "northing":"5812222.569",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8074524440917",
+         "longitude":"144.958306664206"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e0",
+      "asset_typ":"Monument",
+      "name":"Passage",
+      "addresspt":"92 Therry Street, MELBOURNE",
+      "artist":"Mark Stoner",
+      "artdate":"1994",
+      "structure_":"Bluestone sculpture",
+      "easting":"320267.565",
+      "northing":"5813584.658",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8100230422747",
+         "longitude":"144.973642124927"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a39",
+      "asset_typ":"Monument",
+      "name":"Pastor Sir Doug and Lady Gladys Nicholls",
+      "addresspt":"Parliament Gardens, EAST MELBOURNE",
+      "artist":"Louis Laumen",
+      "artdate":"2007",
+      "structure_":"Bronze memorial statue",
+      "easting":"321623.89104",
+      "northing":"5813328.80397",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8110235407409",
+         "longitude":"144.978389216138"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e6",
+      "asset_typ":"Art",
+      "name":"People's Path",
+      "addresspt":"4 Lansdowne Street, EAST MELBOURNE",
+      "artist":"Ian Sprague et al",
+      "artdate":"1978-1979",
+      "structure_":"Terracotta bricks (tiles)",
+      "easting":"322044.214",
+      "northing":"5813226.837",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8129540664935",
+         "longitude":"144.965264917067"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a14",
+      "asset_typ":"Art",
+      "name":"Personal Islands",
+      "addresspt":"201 Swanston Street, MELBOURNE",
+      "artist":"Robert Jacks",
+      "artdate":"1992",
+      "structure_":"Brass and bluestone",
+      "easting":"320893.469",
+      "northing":"5812987.53",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.784773009033",
+         "longitude":"144.95236482558"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ca",
+      "asset_typ":"Art",
+      "name":"Peter Pan",
+      "addresspt":"Melbourne Zoological Gardens, Elliott Avenue, PARKVILLE",
+      "artist":"Paul Montford",
+      "artdate":"1925",
+      "structure_":"Bronze statue",
+      "easting":"319689.3",
+      "northing":"5816089.856",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8249065059188",
+         "longitude":"144.947426953214"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a52",
+      "asset_typ":"Art",
+      "name":"Photo art billboard",
+      "addresspt":"56 Lorimer Street, DOCKLANDS",
+      "artist":"Various artists",
+      "artdate":"various",
+      "structure_":"Photographic images",
+      "easting":"319352.271",
+      "northing":"5811626.855",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.810801327848",
+         "longitude":"144.953954497374"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a9",
+      "asset_typ":"Monument",
+      "name":"Pioneer Monument",
+      "addresspt":"395 King Street, WEST MELBOURNE",
+      "artist":"Samuel Craven",
+      "artdate":"1871",
+      "structure_":"Sandstone obelisk",
+      "easting":"319892.537",
+      "northing":"5813204.663",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8251147378564",
+         "longitude":"144.976076213311"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a5d",
+      "asset_typ":"Monument",
+      "name":"Pioneer Women's Memorial",
+      "addresspt":"Kings Domain, Alexandra Avenue, MELBOURNE",
+      "artist":"Hugh Linaker",
+      "artdate":"1934",
+      "structure_":"Memorial garden with bronze statue",
+      "easting":"321874.468",
+      "northing":"5811658.785",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8180105674976",
+         "longitude":"144.946830696021"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a38",
+      "asset_typ":"Art",
+      "name":"Poise",
+      "addresspt":"110 Harbour Esplanade, DOCKLANDS",
+      "artist":"Warren Langley",
+      "artdate":"2005",
+      "structure_":"Glass",
+      "easting":"319282.966",
+      "northing":"5812390.92",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8056957854241",
+         "longitude":"144.907291041632"
+      },
+      "_id":"5ff7c73dd1be578bb6f38964",
+      "asset_typ":"Art",
+      "name":"Port Phillip Monument",
+      "addresspt":"178 Sims Street, WEST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1941",
+      "structure_":"Basalt monument",
+      "easting":"315771.745",
+      "northing":"5813680.208",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8218411817137",
+         "longitude":"144.972479044613"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a5a",
+      "asset_typ":"Monument",
+      "name":"Queen Victoria Memorial",
+      "addresspt":"Residence, Alexandra Gardens, Alexandra Avenue, MELBOURNE",
+      "artist":"James White",
+      "artdate":"1907",
+      "structure_":"White marble and granite sculpture",
+      "easting":"321549.962",
+      "northing":"5812015.171",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7855912646095",
+         "longitude":"144.96931423372"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a59",
+      "asset_typ":"Monument",
+      "name":"R.J. & F.G.J. Hardy Memorial Drinking Fountain",
+      "addresspt":"463 Lygon Street",
+      "artist":"unknown",
+      "artdate":"1939",
+      "structure_":"Stone drinking fountain",
+      "easting":"321183.961",
+      "northing":"5816031.622",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8088169283775",
+         "longitude":"144.943688304136"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a58",
+      "asset_typ":"Art",
+      "name":"Railway Viewing Platform",
+      "addresspt":"90 Railway Place, WEST MELBOURNE",
+      "artist":"Designer Bernice McPherson; architects Craig Perry and Peter Dann",
+      "artdate":"1994",
+      "structure_":"Metal platform",
+      "easting":"318983.89",
+      "northing":"5813405.02",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202323424168",
+         "longitude":"144.946325127609"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c9",
+      "asset_typ":"Art",
+      "name":"Reed Vessel",
+      "addresspt":"67 Harbour Esplanade, DOCKLANDS",
+      "artist":"Virginia King",
+      "artdate":"2002",
+      "structure_":"Sculpture",
+      "easting":"319243.883",
+      "northing":"5812143.399",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8103720817164",
+         "longitude":"144.964076502567"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b9",
+      "asset_typ":"Art",
+      "name":"Resting Place",
+      "addresspt":"335 Swanston Street, MELBOURNE",
+      "artist":"Bronwyn Snow",
+      "artdate":"1994",
+      "structure_":"Steel and jarrah seat",
+      "easting":"320782.604",
+      "northing":"5813271.763",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7836612081103",
+         "longitude":"144.960004054347"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d4",
+      "asset_typ":"Art",
+      "name":"Reynold's Reserve Drinking Fountain",
+      "addresspt":"Princes Park, Royal Parade, CARLTON NORTH",
+      "artist":"unknown",
+      "artdate":"c. 1935",
+      "structure_":"Red-granite and brick drinking fountain",
+      "easting":"320359.374",
+      "northing":"5816227.938",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8104167138709",
+         "longitude":"144.980882423414"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d0",
+      "asset_typ":"Fountain",
+      "name":"River God Fountain",
+      "addresspt":"304 Albert Street, EAST MELBOURNE",
+      "artist":"Charles Summers",
+      "altname":"Old Man Fountain; Neptune",
+      "artdate":"1862",
+      "structure_":"Stone and cement fountain",
+      "easting":"322262.25",
+      "northing":"5813298.921",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.814373582353",
+         "longitude":"144.974720032667"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ee",
+      "asset_typ":"Monument",
+      "name":"Robert Burns Memorial",
+      "addresspt":"10 Spring Street, EAST MELBOURNE",
+      "artist":"George Anderson Lawson",
+      "artdate":"1903",
+      "structure_":"Bronze statue and plinth with granite pedestal",
+      "easting":"321729.253",
+      "northing":"5812848.1",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8082489459354",
+         "longitude":"144.975315385075"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ef",
+      "asset_typ":"Monument",
+      "name":"Samuel Mauger Drinking Fountain",
+      "addresspt":"110 Victoria Parade, EAST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1937",
+      "structure_":"Granite drinking fountain",
+      "easting":"321766.934",
+      "northing":"5813528.862",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201046430242",
+         "longitude":"144.959477986287"
+      },
+      "_id":"5ff7c4129ba8a4298e141e63",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320401.35741",
+      "northing":"5812182.94492",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200765201921",
+         "longitude":"144.959699691425"
+      },
+      "_id":"5ff7c73dd1be578bb6f38997",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320420.80492",
+      "northing":"5812186.49195",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200614090425",
+         "longitude":"144.959718171092"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a5",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320422.39497",
+      "northing":"5812188.20431",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.820111630197",
+         "longitude":"144.959404150284"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a6",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320394.87491",
+      "northing":"5812182.02759",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200785738744",
+         "longitude":"144.959627380846"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a7",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320414.44473",
+      "northing":"5812186.12502",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200830248455",
+         "longitude":"144.959725218101"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a8",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320423.06768",
+      "northing":"5812185.81924",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200953335",
+         "longitude":"144.959704036718"
+      },
+      "_id":"5ff7c73dd1be578bb6f389aa",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320421.23301",
+      "northing":"5812184.41266",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201002457889",
+         "longitude":"144.959733080966"
+      },
+      "_id":"5ff7c73dd1be578bb6f389af",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320423.80155",
+      "northing":"5812183.92341",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201003379632",
+         "longitude":"144.959547579868"
+      },
+      "_id":"5ff7c73dd1be578bb6f389dc",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320407.47298",
+      "northing":"5812183.55648",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201540531024",
+         "longitude":"144.959283942501"
+      },
+      "_id":"5ff7c73dd1be578bb6f389dd",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320384.39644",
+      "northing":"5812177.08889",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.820149525359",
+         "longitude":"144.959318134551"
+      },
+      "_id":"5ff7c73dd1be578bb6f389df",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320387.39523",
+      "northing":"5812177.65708",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202412036118",
+         "longitude":"144.959153249799"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e1",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320373.10348",
+      "northing":"5812167.16675",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200555636082",
+         "longitude":"144.959698879153"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a0c",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320420.68261",
+      "northing":"5812188.81587",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201325090472",
+         "longitude":"144.959336879083"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a0e",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320389.00396",
+      "northing":"5812179.58136",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.82012299082",
+         "longitude":"144.959360068025"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a11",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320391.0221",
+      "northing":"5812180.68216",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201736797154",
+         "longitude":"144.959200268537"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a1e",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320377.0786",
+      "northing":"5812174.75006",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201019944052",
+         "longitude":"144.959452353426"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a20",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320399.09465",
+      "northing":"5812183.18954",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201043033663",
+         "longitude":"144.959426584028"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a29",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320396.83189",
+      "northing":"5812182.88377",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.820097951228",
+         "longitude":"144.959505265904"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a3d",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320403.74248",
+      "northing":"5812183.73994",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8202194220305",
+         "longitude":"144.959168439493"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a43",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320374.38775",
+      "northing":"5812169.61298",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201547396011",
+         "longitude":"144.959252201884"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a4f",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320381.60412",
+      "northing":"5812176.95166",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200541369817",
+         "longitude":"144.959680160075"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a54",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320419.0314",
+      "northing":"5812188.93818",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201609405995",
+         "longitude":"144.95922840946"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a55",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320379.52483",
+      "northing":"5812176.2178",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200608408543",
+         "longitude":"144.959653574985"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a56",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320416.70749",
+      "northing":"5812188.14315",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201167536871",
+         "longitude":"144.959381777078"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a5b",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320392.91792",
+      "northing":"5812181.41603",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200950553396",
+         "longitude":"144.95952896712"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a5e",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320405.82177",
+      "northing":"5812184.10688",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.820084055671",
+         "longitude":"144.959593881825"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a61",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320411.50925",
+      "northing":"5812185.4523",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8201046430242",
+         "longitude":"144.959477986287"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a65",
+      "asset_typ":"Art",
+      "name":"Scar - A Stolen Vision",
+      "addresspt":"Enterprize Park, MELBOURNE",
+      "artist":"Karen Casey, Craig Charles, Glenn Romanis, Maree Clarke, Ray Thomas, Ricardo Idagi and Treahna Hamm",
+      "artdate":"2001",
+      "structure_":"Wooden pier post and metal sculptures",
+      "easting":"320401.35741",
+      "northing":"5812182.94492",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.810695135969",
+         "longitude":"144.953685908935"
+      },
+      "_id":"5ff7c73dd1be578bb6f38984",
+      "asset_typ":"Monument",
+      "name":"Separation Memorial",
+      "addresspt":"401 King Street, WEST MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1950",
+      "structure_":"Mixed stone sculpture",
+      "easting":"319868.634",
+      "northing":"5813215.929",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8176052348949",
+         "longitude":"144.945539402201"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e3",
+      "asset_typ":"Art",
+      "name":"Shoal Fly By",
+      "addresspt":"125 Harbour Esplanade, DOCKLANDS",
+      "artist":"Cat McCleod and Michael Bellemo",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"319168.307",
+      "northing":"5812433.399",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8192431329106",
+         "longitude":"144.947246784778"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ae",
+      "asset_typ":"Art",
+      "name":"Signature Work",
+      "addresspt":"22 Waterview Walk, DOCKLANDS",
+      "artist":"Emily Floyd",
+      "altname":"Rabbit",
+      "artdate":"2004",
+      "structure_":"Painted aluminium sculpture",
+      "easting":"319322.6",
+      "northing":"5812254.951",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151070586048",
+         "longitude":"144.941546516146"
+      },
+      "_id":"5ff7c73dd1be578bb6f38988",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318810.71",
+      "northing":"5812702.874",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150960305524",
+         "longitude":"144.941483193022"
+      },
+      "_id":"5ff7c73dd1be578bb6f38989",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318805.108",
+      "northing":"5812703.975",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.815142895306",
+         "longitude":"144.941571658474"
+      },
+      "_id":"5ff7c73dd1be578bb6f3898e",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318813.011",
+      "northing":"5812698.946",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150603527985",
+         "longitude":"144.941593770341"
+      },
+      "_id":"5ff7c73dd1be578bb6f389e9",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"50 Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318814.756",
+      "northing":"5812708.148",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150519675867",
+         "longitude":"144.941598936717"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ea",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"50 Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318815.19",
+      "northing":"5812709.089",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151113421446",
+         "longitude":"144.941618390681"
+      },
+      "_id":"5ff7c73dd1be578bb6f389eb",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"45 Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318817.048",
+      "northing":"5812702.538",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150889597275",
+         "longitude":"144.941472613193"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ec",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318804.16",
+      "northing":"5812704.739",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151345502614",
+         "longitude":"144.941464635494"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f1",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318803.569",
+      "northing":"5812699.664",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150877523684",
+         "longitude":"144.941573967784"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f4",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318813.079",
+      "northing":"5812705.07",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.81508276715",
+         "longitude":"144.941482783904"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f5",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318805.04",
+      "northing":"5812705.446",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151131017782",
+         "longitude":"144.941629273114"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f6",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"45 Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318818.01",
+      "northing":"5812702.364",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8150528491189",
+         "longitude":"144.94158776112"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f7",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"50 Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318814.208",
+      "northing":"5812708.969",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8151593795233",
+         "longitude":"144.941509412449"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f9",
+      "asset_typ":"Art",
+      "name":"Silence",
+      "addresspt":"55B Newquay Promenade, DOCKLANDS",
+      "artist":"Adrian Mauriks",
+      "artdate":"2003",
+      "structure_":"Sculpture",
+      "easting":"318807.572",
+      "northing":"5812696.996",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8253098347073",
+         "longitude":"144.971594300075"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a18",
+      "asset_typ":"Monument",
+      "name":"Sir Edward \"Weary\" Dunlop",
+      "addresspt":"242 St Kilda Road, SOUTHBANK",
+      "artist":"Peter Corlett",
+      "artdate":"1995",
+      "structure_":"Bronze statue with granite pedestal",
+      "easting":"321480.444",
+      "northing":"5811628.577",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8267733497848",
+         "longitude":"144.97275207638"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a66",
+      "asset_typ":"Monument",
+      "name":"Sir John Monash",
+      "addresspt":"270 St Kilda Road, SOUTHBANK",
+      "artist":"William Leslie Bowles",
+      "artdate":"1950",
+      "structure_":"Bronze statue on granite plinth",
+      "easting":"321585.875",
+      "northing":"5811468.389",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8263011410214",
+         "longitude":"144.972818912121"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b6",
+      "asset_typ":"Monument",
+      "name":"Sir Thomas Blamey Memorial",
+      "addresspt":"262 St Kilda Road, SOUTHBANK",
+      "artist":"Raymond B. Ewers",
+      "artdate":"1960",
+      "structure_":"Bronze statue with granite pedestal",
+      "easting":"321590.621",
+      "northing":"5811520.916",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8136729461963",
+         "longitude":"144.97434487547"
+      },
+      "_id":"5ff7c73dd1be578bb6f3899d",
+      "asset_typ":"Monument",
+      "name":"Sir William John Clarke",
+      "addresspt":"18 Spring Street, EAST MELBOURNE",
+      "artist":"Edgar Bertram Mackennal",
+      "artdate":"1902",
+      "structure_":"Marble statue",
+      "easting":"321694.541",
+      "northing":"5812925.131",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8259414951225",
+         "longitude":"144.971856818756"
+      },
+      "_id":"5ff7c73dd1be578bb6f389cb",
+      "asset_typ":"Monument",
+      "name":"South African War Memorial",
+      "addresspt":"254 St Kilda Road, SOUTHBANK",
+      "artist":"Architect - G. De Lacy-Evans Sculptor - Joseph Hamilton",
+      "altname":"Memorial to Fallen Soldiers, and Monument to the 5th Victorian Contingent",
+      "artdate":"1904",
+      "structure_":"Sandstone and bluestone sculpture",
+      "easting":"321505.073",
+      "northing":"5811558.986",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8200825876335",
+         "longitude":"144.975716740604"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a0a",
+      "asset_typ":"Art",
+      "name":"Speakers Corner",
+      "addresspt":"Birrarung Marr, MELBOURNE",
+      "artist":"Evangelos Sakaris",
+      "artdate":"c. 2000",
+      "structure_":"Earthwork and pink-granite memorial",
+      "easting":"321830.7245",
+      "northing":"5812216.49672",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8058096647951",
+         "longitude":"144.972528813493"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b5",
+      "asset_typ":"Fountain",
+      "name":"Spray Lake",
+      "addresspt":"46 Nicholson Street",
+      "artist":"unknown",
+      "artdate":"1965",
+      "structure_":"Steel and bluestone fountain",
+      "easting":"321515.732",
+      "northing":"5813794.219",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8124342889143",
+         "longitude":"144.973955482708"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b4",
+      "asset_typ":"Fountain",
+      "name":"Stanford Fountain",
+      "addresspt":"88 Spring Street, EAST MELBOURNE",
+      "artist":"William Stanford",
+      "artdate":"c. 1870",
+      "structure_":"Bluestone fountain",
+      "easting":"321657.281",
+      "northing":"5813061.836",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8189109575006",
+         "longitude":"144.973021274734"
+      },
+      "_id":"5ff7c73dd1be578bb6f3898d",
+      "asset_typ":"Monument",
+      "name":"Stapley Memorial Drinking Fountain",
+      "addresspt":"Birrarung Marr, Batman Avenue, MELBOURNE",
+      "artist":"unknown",
+      "artdate":"1936",
+      "structure_":"Granite drinking fountain",
+      "easting":"321590.634",
+      "northing":"5812341.362",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.813953837555",
+         "longitude":"144.978577485077"
+      },
+      "_id":"5ff7c73dd1be578bb6f38982",
+      "asset_typ":"Art",
+      "name":"Statue of Meditation",
+      "addresspt":"Conservatory, Fitzroy Gardens, 274 Wellington Parade, EAST MELBOURNE",
+      "artist":"Robert Delandere",
+      "artdate":"1933",
+      "structure_":"Marble statue",
+      "easting":"322067.824",
+      "northing":"5812902.033",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8103161768399",
+         "longitude":"144.954937553695"
+      },
+      "_id":"5ff7c73dd1be578bb6f38999",
+      "asset_typ":"Art",
+      "name":"Sundial",
+      "addresspt":"392 William Street, MELBOURNE",
+      "artist":"unknown",
+      "artdate":"unknown",
+      "structure_":"Bronze sundial on sandstone plinth",
+      "easting":"319977.904",
+      "northing":"5813260.393",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8128096374869",
+         "longitude":"144.981735857931"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a1d",
+      "asset_typ":"Art",
+      "name":"Temple of the Winds",
+      "addresspt":"116 Clarendon Street, EAST MELBOURNE",
+      "artist":"Thomas Jones & Co",
+      "artdate":"1873",
+      "structure_":"Masonry and bluestone rotunda",
+      "easting":"322343.12",
+      "northing":"5813035.012",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.81026401562",
+         "longitude":"144.955039032582"
+      },
+      "_id":"5ff7c73dd1be578bb6f389ad",
+      "asset_typ":"Art",
+      "name":"The Court Favourite",
+      "addresspt":"394 William Street, MELBOURNE",
+      "artist":"Paul Montford",
+      "artdate":"unknown",
+      "structure_":"Bronze statue with granite pedestal",
+      "easting":"319986.711",
+      "northing":"5813266.377",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.812705684744",
+         "longitude":"144.965153944033"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f0",
+      "asset_typ":"Art",
+      "name":"The Echo",
+      "addresspt":"219 Swanston Street, MELBOURNE",
+      "artist":"Edward Ginger",
+      "artdate":"1996",
+      "structure_":"Steel plate sculpture with polyurethane paint",
+      "easting":"320883.1",
+      "northing":"5813014.879",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8214877401729",
+         "longitude":"144.971194700662"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f2",
+      "asset_typ":"Art",
+      "name":"The Genie",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"Sculptor Tom Bass; founder F.J. & I. Lemon",
+      "artdate":"1973",
+      "structure_":"Bronze sculpture",
+      "easting":"321436.058",
+      "northing":"5812051.936",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8220280738117",
+         "longitude":"144.970355228248"
+      },
+      "_id":"5ff7c73dd1be578bb6f3898f",
+      "asset_typ":"Art",
+      "name":"The Pathfinder",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"John Edward Robinson",
+      "altname":"The Hammer Thrower",
+      "artdate":"1974",
+      "structure_":"Bronze sculpture",
+      "easting":"321363.468",
+      "northing":"5811990.372",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8221532701427",
+         "longitude":"144.97095067818"
+      },
+      "_id":"5ff7c73dd1be578bb6f38980",
+      "asset_typ":"Art",
+      "name":"The Phoenix",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"Yrsa Von Leister",
+      "artdate":"1973",
+      "structure_":"Bronze and sheet copper statue",
+      "easting":"321416.183",
+      "northing":"5811977.618",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8140976855607",
+         "longitude":"144.963400769342"
+      },
+      "_id":"5ff7c73dd1be578bb6f3897b",
+      "asset_typ":"Art",
+      "name":"The Public Purse",
+      "addresspt":"348 Bourke Street, MELBOURNE",
+      "artist":"Simon Perry",
+      "artdate":"1994",
+      "structure_":"Calca red-granite and stainless-steel sculpture",
+      "easting":"320732.128",
+      "northing":"5812857.051",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8206998343058",
+         "longitude":"144.962209921997"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a34",
+      "asset_typ":"Art",
+      "name":"The Travellers",
+      "addresspt":"Sandridge Bridge, SOUTHBANK",
+      "artist":"Artist Nadim Karam; manufacturer Arup Engineering",
+      "artdate":"2005",
+      "structure_":"Stainless-steel tubing and glass panel installation",
+      "easting":"320643.27793",
+      "northing":"5812122.14905",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8222098236425",
+         "longitude":"144.971335339413"
+      },
+      "_id":"5ff7c73dd1be578bb6f38975",
+      "asset_typ":"Art",
+      "name":"The Water Nymph",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"Paul Montford",
+      "artdate":"1925",
+      "structure_":"Bronze sculpture",
+      "easting":"321450.178",
+      "northing":"5811972.078",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.821493403054",
+         "longitude":"144.950437271721"
+      },
+      "_id":"5ff7c73dd1be578bb6f38979",
+      "asset_typ":"Art",
+      "name":"The Wave",
+      "addresspt":"12 Georgiana Street, DOCKLANDS",
+      "artist":"Vashti Gonda",
+      "artdate":"2006",
+      "structure_":"Media installation",
+      "easting":"319608.927",
+      "northing":"5812011.414",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8015394618203",
+         "longitude":"144.960227228018"
+      },
+      "_id":"5ff7c73dd1be578bb6f38986",
+      "asset_typ":"Monument",
+      "name":"Thomas Ferguson Memorial Drinking Fountain",
+      "addresspt":"179 Leicester Street, CARLTON",
+      "artist":"unknown",
+      "artdate":"1912",
+      "structure_":"Stone drinking fountain",
+      "easting":"320422.328",
+      "northing":"5814244.492",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8155239604994",
+         "longitude":"144.946828976445"
+      },
+      "_id":"5ff7c73dd1be578bb6f3896f",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"687 La Trobe Street, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319276.75",
+      "northing":"5812666.846",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8152979137773",
+         "longitude":"144.947771877035"
+      },
+      "_id":"5ff7c73dd1be578bb6f38970",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"157 Wurundjeri Way, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319359.203",
+      "northing":"5812693.754",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8153623400158",
+         "longitude":"144.946876084269"
+      },
+      "_id":"5ff7c73dd1be578bb6f38971",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"687 La Trobe Street, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319280.502",
+      "northing":"5812684.872",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8152785788316",
+         "longitude":"144.947248109473"
+      },
+      "_id":"5ff7c73dd1be578bb6f38994",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"683 La Trobe Street, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319313.048",
+      "northing":"5812694.886",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.815324414746",
+         "longitude":"144.9470729338"
+      },
+      "_id":"5ff7c73dd1be578bb6f38995",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"685 La Trobe Street, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319297.739",
+      "northing":"5812689.461",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8154836225539",
+         "longitude":"144.946712125445"
+      },
+      "_id":"5ff7c73dd1be578bb6f3899c",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"689 La Trobe Street, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319266.365",
+      "northing":"5812671.096",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8179724438437",
+         "longitude":"144.947887016093"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a01",
+      "asset_typ":"Art",
+      "name":"Threaded Field",
+      "addresspt":"750 Bourke Street, DOCKLANDS",
+      "artist":"Simon Perry",
+      "artdate":"1999",
+      "structure_":"Sculpture",
+      "easting":"319375.859",
+      "northing":"5812397.194",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8136854004532",
+         "longitude":"144.965574539781"
+      },
+      "_id":"5ff7c73dd1be578bb6f38992",
+      "asset_typ":"Art",
+      "name":"Three Businessmen Who Brought Their Own Lunch",
+      "addresspt":"173 Swanston Street, MELBOURNE",
+      "artist":"Alison Weaver and Paul Quinn",
+      "artdate":"1993",
+      "structure_":"Bronze sculpture",
+      "easting":"320922.494",
+      "northing":"5812906.97",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8253717117323",
+         "longitude":"144.975900201821"
+      },
+      "_id":"5ff7c73dd1be578bb6f38991",
+      "asset_typ":"Monument",
+      "name":"Tilly Aston Bell",
+      "addresspt":"Kings Domain, Alexandra Avenue, MELBOURNE",
+      "artist":"Anton Hasell",
+      "artdate":"1999",
+      "structure_":"Bronze sculpture",
+      "easting":"321859.594",
+      "northing":"5811629.933",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8143983948935",
+         "longitude":"144.96625088381"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a4a",
+      "asset_typ":"Art",
+      "name":"Time and Tide",
+      "addresspt":"252 Little Collins Street, MELBOURNE",
+      "artist":"Akio Makigawa",
+      "artdate":"1994",
+      "structure_":"Bluestone, white marble, bronze and stainless-steel sculpture",
+      "easting":"320983.757",
+      "northing":"5812829.149",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8260714214476",
+         "longitude":"144.967732756918"
+      },
+      "_id":"5ff7c73dd1be578bb6f389d1",
+      "asset_typ":"Art",
+      "name":"Vault",
+      "addresspt":"51 Grant Street, SOUTHBANK",
+      "artist":"Ron Roberston-Swann",
+      "altname":"Yellow Peril",
+      "artdate":"1980",
+      "structure_":"Steel plate sculpture",
+      "easting":"321142.394",
+      "northing":"5811536.677",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8152982442351",
+         "longitude":"144.938823236515"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a45",
+      "asset_typ":"Art",
+      "name":"Walk of Stars",
+      "addresspt":"435 Docklands Drive, DOCKLANDS",
+      "artist":"Peter Cortlett and Jamie Cooper",
+      "artdate":"2006",
+      "structure_":"Bronze statue and plaques",
+      "easting":"318571.443",
+      "northing":"5812676.372",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8152456579572",
+         "longitude":"144.938853960352"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a57",
+      "asset_typ":"Art",
+      "name":"Walk of Stars",
+      "addresspt":"435 Docklands Drive, DOCKLANDS",
+      "artist":"Peter Cortlett and Jamie Cooper",
+      "artdate":"2006",
+      "structure_":"Bronze statue and plaques",
+      "easting":"318574.019",
+      "northing":"5812682.267",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8235489328706",
+         "longitude":"144.970827540478"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a32",
+      "asset_typ":"Fountain",
+      "name":"Walker Fountain",
+      "addresspt":"210 St Kilda Road, SOUTHBANK",
+      "artist":"Mobelt, Digregorio & Associates",
+      "artdate":"1981",
+      "structure_":"Concrete fountain",
+      "easting":"321408.709",
+      "northing":"5811822.511",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8221241223436",
+         "longitude":"144.970661980986"
+      },
+      "_id":"5ff7c73dd1be578bb6f389a1",
+      "asset_typ":"Art",
+      "name":"Water Children",
+      "addresspt":"Queen Victoria Gardens, St Kilda Road, MELBOURNE",
+      "artist":"John Edward Robinson",
+      "artdate":"c. 1970",
+      "structure_":"Bronze sculpture",
+      "easting":"321390.701",
+      "northing":"5811980.3",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8134422577685",
+         "longitude":"144.965689009116"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a02",
+      "asset_typ":"Art",
+      "name":"Weathervanes",
+      "addresspt":"184 Swanston Street, MELBOURNE",
+      "artist":"Daniel Jenkins",
+      "artdate":"1993",
+      "structure_":"Hand-beaten copper sculpture with gold-leaf detail",
+      "easting":"320931.983",
+      "northing":"5812934.17",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8134883855915",
+         "longitude":"144.965515931433"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a30",
+      "asset_typ":"Art",
+      "name":"Weathervanes",
+      "addresspt":"270 Bourke Street, MELBOURNE",
+      "artist":"Daniel Jenkins",
+      "artdate":"1993",
+      "structure_":"Hand-beaten copper sculpture with gold-leaf detail",
+      "easting":"320916.858",
+      "northing":"5812928.72",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8135755457342",
+         "longitude":"144.965751391423"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a31",
+      "asset_typ":"Art",
+      "name":"Weathervanes",
+      "addresspt":"178 Swanston Street, MELBOURNE",
+      "artist":"Daniel Jenkins",
+      "artdate":"1993",
+      "structure_":"Hand-beaten copper sculpture with gold-leaf detail",
+      "easting":"320937.797",
+      "northing":"5812919.499",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8136266014549",
+         "longitude":"144.965579210749"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a33",
+      "asset_typ":"Art",
+      "name":"Weathervanes",
+      "addresspt":"271 Bourke Street, MELBOURNE",
+      "artist":"Daniel Jenkins",
+      "artdate":"1993",
+      "structure_":"Hand-beaten copper sculpture with gold-leaf detail",
+      "easting":"320922.763",
+      "northing":"5812913.504",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8239756487966",
+         "longitude":"144.947233077573"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a3c",
+      "asset_typ":"Art",
+      "name":"Webb Bridge",
+      "addresspt":"50 River Esplanade, DOCKLANDS",
+      "artist":"Robert Owen and Denton Corker Marshall",
+      "artdate":"2003",
+      "structure_":"Pedestrian and cyclist bridge",
+      "easting":"319332.935",
+      "northing":"5811729.774",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8050913081625",
+         "longitude":"144.973417274498"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a5c",
+      "asset_typ":"Art",
+      "name":"Westgarth Drinking Fountain",
+      "addresspt":"9 Nicholson Street, CARLTON",
+      "artist":"Alexander McDonald & Co",
+      "artdate":"c. 1888",
+      "structure_":"Aberdeen pink-granite and bronze drinking fountain",
+      "easting":"321592.225",
+      "northing":"5813875.629",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7982578658973",
+         "longitude":"144.970564664826"
+      },
+      "_id":"5ff7c73dd1be578bb6f389c7",
+      "asset_typ":"Monument",
+      "name":"William Ievers Junior Memorial Drinking Fountain",
+      "addresspt":"80 Rathdowne Street, CARLTON",
+      "artist":"Charles Douglas Richardson",
+      "artdate":"1916",
+      "structure_":"Granite, marble and bluestone drinking fountain",
+      "easting":"321324.603",
+      "northing":"5814628.456",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8028341939653",
+         "longitude":"144.966385536842"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b7",
+      "asset_typ":"Monument",
+      "name":"William Ievers Senior Memorial Drinking Fountain",
+      "addresspt":"155 Lygon Street, CARLTON",
+      "artist":"Charles Douglas Richardson",
+      "artdate":"1915",
+      "structure_":"Granite, marble and bluestone drinking fountain",
+      "easting":"320967.678",
+      "northing":"5814112.64",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.8072519167223",
+         "longitude":"144.959230533317"
+      },
+      "_id":"5ff7c73dd1be578bb6f389cf",
+      "asset_typ":"Art",
+      "name":"Wind Contrivance",
+      "addresspt":"64 Therry Street, MELBOURNE",
+      "artist":"Pauline Fraser",
+      "artdate":"1995",
+      "structure_":"Bronze, Red Gum and Harcourt granite sculpture",
+      "easting":"320348.417",
+      "northing":"5813608.687",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7788722549869",
+         "longitude":"144.961103719498"
+      },
+      "_id":"5ff7c73dd1be578bb6f3899b",
+      "asset_typ":"Art",
+      "name":"Within Three Worlds",
+      "addresspt":"684 Park Street, CARLTON NORTH",
+      "artist":"Loretta Quinn",
+      "artdate":"1995",
+      "structure_":"Bronze sculpture",
+      "easting":"320444.63",
+      "northing":"5816761.46",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7789311799623",
+         "longitude":"144.961158146237"
+      },
+      "_id":"5ff7c73dd1be578bb6f389b3",
+      "asset_typ":"Art",
+      "name":"Within Three Worlds",
+      "addresspt":"684 Park Street, CARLTON NORTH",
+      "artist":"Loretta Quinn",
+      "artdate":"1995",
+      "structure_":"Bronze sculpture",
+      "easting":"320449.566",
+      "northing":"5816755.026",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7788688464994",
+         "longitude":"144.961128357193"
+      },
+      "_id":"5ff7c73dd1be578bb6f389f8",
+      "asset_typ":"Art",
+      "name":"Within Three Worlds",
+      "addresspt":"684 Park Street, CARLTON NORTH",
+      "artist":"Loretta Quinn",
+      "artdate":"1995",
+      "structure_":"Bronze sculpture",
+      "easting":"320446.792",
+      "northing":"5816761.886",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7788627462445",
+         "longitude":"144.961112677408"
+      },
+      "_id":"5ff7c73dd1be578bb6f38a1f",
+      "asset_typ":"Art",
+      "name":"Within Three Worlds",
+      "addresspt":"684 Park Street, CARLTON NORTH",
+      "artist":"Loretta Quinn",
+      "artdate":"1995",
+      "structure_":"Bronze sculpture",
+      "easting":"320445.396",
+      "northing":"5816762.533",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   },
+   {
+      "geom":{
+         "latitude":"-37.7825613531513",
+         "longitude":"144.953293881649"
+      },
+      "_id":"5ff7c73dd1be578bb6f3898c",
+      "asset_typ":"Art",
+      "name":"Zoo Paving",
+      "addresspt":"11 Old Poplar Road, PARKVILLE",
+      "artist":"Tanya Court and Kate Cullity",
+      "artdate":"1995",
+      "structure_":"Coloured concrete paving",
+      "easting":"319765.746",
+      "northing":"5816337.066",
+      "image":"https://i2.wp.com/adelle.com.au/wp-content/uploads/2014/05/ophelia-deborah-halpern.jpg?zoom=2&w=1100"
+   }
+]
