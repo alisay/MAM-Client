@@ -47,7 +47,7 @@ const MapContainer = () => {
        googleMapsApiKey={process.env.REACT_APP_GOOGLE_API}>
         <GoogleMap
           mapContainerStyle={mapStyles}
-          zoom={13}
+          zoom={15}
           center={defaultCenter}
           >
             {
@@ -72,7 +72,7 @@ const MapContainer = () => {
             onCloseClick={() => setSelected({})}
             >
             <div>
-                {/* <img src={selected.image} /> */}
+                <img src={selected.image} width="250" />
                 <p>{selected.name}</p>
                 <p>{selected.addresspt}</p>
                 <p>ARTIST: {selected.artist}</p>

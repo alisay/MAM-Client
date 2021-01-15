@@ -1,8 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
 import axios from 'axios';
+import Login from "./Login.js"
+import {TokenContext} from "./TokenContext.js"
+
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
 
@@ -23,6 +26,11 @@ const useStyles = makeStyles((theme) => ({
 export default function Account() {
     const classes = useStyles();
     const [artwork, setArtwork] = useState({});
+    const context = useContext(TokenContext)
+  
+    if(!context.token) {
+      return <Login setToken={context.setToken} />
+    }
 
     const handleAddressGet = (event) => {
         event.preventDefault();

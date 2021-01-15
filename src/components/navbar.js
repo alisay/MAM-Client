@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { Link } from "react-router-dom"
 import { fade, makeStyles } from '@material-ui/core/styles';
 import { AppBar, Toolbar, IconButton, Typography, InputBase, MenuItem, Menu } from '@material-ui/core/';
@@ -6,6 +6,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import MoreIcon from '@material-ui/icons/MoreVert';
 import About from "./About.js";
+import {TokenContext} from "./TokenContext.js"
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -78,6 +79,8 @@ export default function PrimarySearchAppBar() {
 
   const isMenuOpen = Boolean(anchorEl);
   const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
+  const context = useContext(TokenContext)
+
 
   const handleProfileMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
@@ -90,6 +93,12 @@ export default function PrimarySearchAppBar() {
   const handleMenuClose = () => {
     setAnchorEl(null);
     handleMobileMenuClose();
+  };
+
+  const handleLogOut = () => {
+    setAnchorEl(null);
+    handleMobileMenuClose();
+    context.logout();
   };
 
   const handleMobileMenuOpen = (event) => {
@@ -107,8 +116,8 @@ export default function PrimarySearchAppBar() {
       open={isMenuOpen}
       onClose={handleMenuClose}
     >
-      <MenuItem component={Link} to={'/account'} onClick={handleMenuClose}>My account</MenuItem>
-      <MenuItem onClick={handleMenuClose}>Log out</MenuItem>
+     <MenuItem component={Link} to={'/account'} onClick={handleMenuClose}>{context.token ? "My account" : "Log in"}</MenuItem>
+      {context.token && <MenuItem onClick={handleLogOut}>Log out</MenuItem>}
     </Menu>
   );
 

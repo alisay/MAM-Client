@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { TokenProvider } from './components/TokenContext.js'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <TokenProvider>
     <App />
-  </React.StrictMode>,
+  </TokenProvider>,
   document.getElementById('root')
 );
 
