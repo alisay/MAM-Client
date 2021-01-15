@@ -9,16 +9,11 @@ import Account from "./components/Account.js";
 
 
 function App() {
-  const [search, setSearch] = useState("");
   const [ selected, setSelected ] = useState({});
 
 
-  function handleSearch(event) {
-    setSearch(event.target.value);
-}
-
   return (<BrowserRouter>
-  <NavBar search={search} onSearch={handleSearch} selected={selected} setSelected={setSelected} />
+  <NavBar selected={selected} setSelected={setSelected} />
   <main>
     <Switch>
       <Route exact path="/">

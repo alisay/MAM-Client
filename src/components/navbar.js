@@ -125,7 +125,7 @@ export default function PrimarySearchAppBar(props) {
 
   const handleKeyDown = (event)=> {
     if (event.key === 'Enter') {
-      const query = props.search;
+      const query = event.target.value;
       //do a fetch and then set selected as returned info
       fetch(`https://melbourneartmap.herokuapp.com/artworks/${query}`)
       .then(response => response.json())
@@ -134,7 +134,7 @@ export default function PrimarySearchAppBar(props) {
           props.setSelected(result[0])}
           else {
             props.setSelected({});
-            event.target.value = "No results"
+            event.target.value = "No results..."
           }
       })
       .catch(error => console.log('error', error));
@@ -154,14 +154,13 @@ export default function PrimarySearchAppBar(props) {
               <SearchIcon />
             </div>
             <InputBase
-              placeholder="Search…"
+              placeholder="Search artworks…"
               classes={{
                 root: classes.inputRoot,
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
               value={props.name} 
-              onChange={props.onSearch}
               onKeyDown={handleKeyDown}
             />
           </div>
