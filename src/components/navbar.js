@@ -142,6 +142,7 @@ export default function PrimarySearchAppBar() {
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
+              onChange={(event)=>{console.log(event.target.value)}}
             />
           </div>
           <div className={classes.grow} />
