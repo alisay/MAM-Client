@@ -4,7 +4,6 @@ import axios from "axios";
 
 const MapContainer = ({selected, setSelected}) => {
     
-    // const [ selected, setSelected ] = useState({});
     const [ currentPosition, setCurrentPosition ] = useState({});
     const [ artworks, setArtworks ] = useState(undefined)
 
