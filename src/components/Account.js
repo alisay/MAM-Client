@@ -72,7 +72,7 @@ export default function Account() {
         body: formdata,
         redirect: 'follow'
         };
-        
+
         fetch("https://melbourneartmap.herokuapp.com/artworks/new", requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
