@@ -2,12 +2,12 @@ import React, {useState, useEffect} from "react";
 import { GoogleMap, LoadScript, Marker, InfoWindow } from "@react-google-maps/api";
 import axios from "axios";
 
-const MapContainer = () => {
+const MapContainer = ({selected, setSelected}) => {
     
-    const [ selected, setSelected ] = useState({});
+    // const [ selected, setSelected ] = useState({});
     const [ currentPosition, setCurrentPosition ] = useState({});
-
     const [ artworks, setArtworks ] = useState(undefined)
+
     const onSelect = (artwork) => {
         setSelected(artwork);
       }

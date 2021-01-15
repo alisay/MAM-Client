@@ -9,12 +9,20 @@ import Account from "./components/Account.js";
 
 
 function App() {
+  const [search, setSearch] = useState("");
+  const [ selected, setSelected ] = useState({});
+
+
+  function handleSearch(event) {
+    setSearch(event.target.value);
+}
+
   return (<BrowserRouter>
-  <NavBar />
+  <NavBar search={search} onSearch={handleSearch} selected={selected} setSelected={setSelected} />
   <main>
     <Switch>
       <Route exact path="/">
-        <MapContainer />
+        <MapContainer selected={selected} setSelected={setSelected}/>
       </Route>
       <Route exact path="/account">
         <Account />

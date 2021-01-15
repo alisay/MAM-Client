@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function PrimarySearchAppBar() {
+export default function PrimarySearchAppBar(props) {
   const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState(null);
@@ -123,6 +123,15 @@ export default function PrimarySearchAppBar() {
 
   const mobileMenuId = 'primary-search-account-menu-mobile';
 
+  const handleKeyDown = (event)=> {
+    if (event.key === 'Enter') {
+      console.log('do validate');
+      console.log(props.search);
+      props.setSelected(props.search);
+      console.log(props.selected)
+  }
+}
+
   return (
     <div className={classes.grow}>
       <AppBar position="static">
@@ -142,7 +151,9 @@ export default function PrimarySearchAppBar() {
                 input: classes.inputInput,
               }}
               inputProps={{ 'aria-label': 'search' }}
-              onChange={(event)=>{console.log(event.target.value)}}
+              value={props.name} 
+              onChange={props.onSearch}
+              onKeyDown={handleKeyDown}
             />
           </div>
           <div className={classes.grow} />
