@@ -125,11 +125,19 @@ export default function PrimarySearchAppBar(props) {
 
   const handleKeyDown = (event)=> {
     if (event.key === 'Enter') {
-      console.log('do validate');
-      console.log(props.search);
-      props.setSelected(props.search);
-      console.log(props.selected)
-  }
+      const query = props.search;
+      //do a fetch and then set selected as returned info
+      fetch(`https://melbourneartmap.herokuapp.com/artworks/${query}`)
+      .then(response => response.json())
+      .then(result => {
+        if(result.length>0){
+          props.setSelected(result[0])}
+          else {
+            console.log("hi")
+          }
+      })
+      .catch(error => console.log('error', error));
+      }
 }
 
   return (

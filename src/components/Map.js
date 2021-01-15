@@ -27,7 +27,7 @@ const MapContainer = ({selected, setSelected}) => {
 
     // on mount
     useEffect(() => {
-        axios.get("https://melbourneartmap.herokuapp.com/artworks/")//update to be actual endpoint once backend api working
+        axios.get("https://melbourneartmap.herokuapp.com/artworks/")
             .then((res) => {
                 setArtworks(res.data)
             })

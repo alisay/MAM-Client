@@ -22,7 +22,7 @@ function App() {
   <main>
     <Switch>
       <Route exact path="/">
-        <MapContainer selected={selected} setSelected={setSelected}/>
+        <MapContainer selected={selected} setSelected={setSelected} />
       </Route>
       <Route exact path="/account">
         <Account />
