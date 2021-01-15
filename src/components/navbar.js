@@ -133,7 +133,8 @@ export default function PrimarySearchAppBar(props) {
         if(result.length>0){
           props.setSelected(result[0])}
           else {
-            console.log("hi")
+            props.setSelected({});
+            event.target.value = "No results"
           }
       })
       .catch(error => console.log('error', error));
