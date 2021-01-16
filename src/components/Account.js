@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react';
-import { TextField, Button } from '@material-ui/core';
+import { TextField, Button, Container } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
 import Login from "./Login.js"
@@ -87,6 +87,7 @@ export default function Account() {
 
     return (
         <>
+        <Container maxWidth="sm">
         {/* <button onClick={showAuth}>Show me</button> */}
         <h1>Add Artwork</h1>
       <form className={classes.root} noValidate autoComplete="off">
@@ -118,6 +119,7 @@ export default function Account() {
         <Button type="submit" variant="contained" color="secondary" onClick={handleFormSubmit}>Submit</Button>
         </div>
       </form>
+      </Container>
       </>
     );
   }

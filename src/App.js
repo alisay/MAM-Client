@@ -6,6 +6,7 @@ import 'fontsource-roboto';
 import NavBar from "./components/Navbar.js";
 import MapContainer from "./components/Map.js";
 import Account from "./components/Account.js";
+import Dashboard from "./components/Dashboard.js"
 
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
         <MapContainer selected={selected} setSelected={setSelected} />
       </Route>
       <Route exact path="/account">
-        <Account />
+        {/* <Account /> */}
+        <Dashboard />
       </Route>
     </Switch>
   </main>
