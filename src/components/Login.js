@@ -21,7 +21,11 @@ async function loginUser(credentials) {
       body: JSON.stringify(credentials)
     })
       .then(data => data.json())
-      .catch(console.log)
+      .catch(error=>{
+          console.log(error);
+          //render something to the user
+        }
+      )
    }
    
   
@@ -33,13 +37,14 @@ export default function Login() {
 
     const handleSubmit = async e => {
         e.preventDefault();
-        const token = await loginUser({
+        const loginAuth = await loginUser({
           username,
           password
         });
-        context.setToken(token);
-        console.log(token)
+        console.log("loginAuth", loginAuth)
+        context.saveToken(loginAuth)
       }
+
 
   return(
     <form className={classes.root} onSubmit={handleSubmit}>

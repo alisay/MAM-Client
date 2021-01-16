@@ -80,8 +80,14 @@ export default function Account() {
         
     }
 
+    const showAuth = (event)=>{
+      event.preventDefault();
+      console.log("token", context.token)
+  }
+
     return (
         <>
+        <button onClick={showAuth}>Show me</button>
         <h1>Add Artwork</h1>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
