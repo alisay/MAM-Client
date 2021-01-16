@@ -71,7 +71,7 @@ const MapContainer = ({selected, setSelected}) => {
             onCloseClick={() => setSelected({})}
             >
             <div>
-                <img src={selected.image} width="250" />
+                <img src={selected.image} alt={selected.name} width="250" />
                 <p>{selected.name}</p>
                 <p>{selected.addresspt}</p>
                 <p>ARTIST: {selected.artist}</p>
