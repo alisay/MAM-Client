@@ -86,6 +86,7 @@ export default function PrimarySearchAppBar(props) {
     setAnchorEl(event.currentTarget);
   };
 
+
   const handleMobileMenuClose = () => {
     setMobileMoreAnchorEl(null);
   };
@@ -122,6 +123,30 @@ export default function PrimarySearchAppBar(props) {
   );
 
   const mobileMenuId = 'primary-search-account-menu-mobile';
+  const renderMobileMenu = (
+    <Menu
+      anchorEl={mobileMoreAnchorEl}
+      anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+      id={mobileMenuId}
+      keepMounted
+      transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+      open={isMobileMenuOpen}
+      onClose={handleMobileMenuClose}
+    >
+      <MenuItem component={Link} to={'/account'} onClick={handleProfileMenuOpen}>
+        <IconButton
+          aria-label="account of current user"
+          aria-controls="primary-search-account-menu"
+          aria-haspopup="true"
+          color="inherit"
+        >
+          <AccountCircle />
+        </IconButton>
+        <p>{context.token ? "Profile " : "Log in"}</p>
+      </MenuItem>
+      {context.token && <MenuItem onClick={handleLogOut}>Log out</MenuItem>}
+    </Menu>
+  );
 
   const handleKeyDown = (event)=> {
     if (event.key === 'Enter') {
@@ -184,14 +209,15 @@ export default function PrimarySearchAppBar(props) {
               aria-controls={mobileMenuId}
               aria-haspopup="true"
               onClick={handleMobileMenuOpen}
+              open={isMobileMenuOpen}
               color="inherit"
             >
               <MoreIcon />
             </IconButton>
           </div>
-          {/* <Button color="inherit">About</Button> */}
         </Toolbar>
       </AppBar>
+      {renderMobileMenu}
       {renderMenu}
     </div>
   );
