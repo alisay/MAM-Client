@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import 'fontsource-roboto';
 
-import NavBar from "./components/Navbar.js";
+import NavBar from "./components/navbar.js";
 import MapContainer from "./components/Map.js";
 import Account from "./components/Account.js";
 
