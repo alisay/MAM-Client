@@ -1,8 +1,7 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
-import {TokenContext} from "./TokenContext.js"
 
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
