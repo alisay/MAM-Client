@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
@@ -66,9 +66,9 @@ export default function Account({selectedArtwork}) {
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
-
+                
         const myHeaders = new Headers();
-        // myHeaders.append("Cookie", "connect.sid=s%3AYIuwpNjTlbv1oUs2bTeyyQfzSlVPPkQA.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk");
+        // myHeaders.append("Cookie", `connect.sid=s%${context.token.sessionID}.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk`);
 
         const formdata = new FormData();
         formdata.append("title", artwork.name);
