@@ -1,8 +1,7 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
-import {TokenContext} from "./TokenContext.js"
 
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
@@ -41,9 +40,6 @@ export default function Account({selectedArtwork}) {
     const [blob, setBlob] = useState(null);
     const classes = useStyles();
     const [modalStyle] = useState(getModalStyle);
-
-    const context = useContext(TokenContext)
-
   
     useEffect (()=>{
       setArtwork(selectedArtwork)
