@@ -40,7 +40,6 @@ export default function Account({selectedArtwork}) {
   console.log(selectedArtwork)
     const [artwork, setArtwork] = useState(selectedArtwork);
     const [blob, setBlob] = useState(null);
-    const context = useContext(TokenContext)
     const classes = useStyles();
     const [modalStyle] = useState(getModalStyle);
   
