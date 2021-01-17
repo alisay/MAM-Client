@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
+import {TokenContext} from "./TokenContext.js"
 
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
@@ -40,6 +41,9 @@ export default function Account({selectedArtwork}) {
     const [blob, setBlob] = useState(null);
     const classes = useStyles();
     const [modalStyle] = useState(getModalStyle);
+
+    const context = useContext(TokenContext)
+
   
     useEffect (()=>{
       setArtwork(selectedArtwork)
@@ -47,7 +51,7 @@ export default function Account({selectedArtwork}) {
 
       const handleAddressGet = (event) => {
         event.preventDefault();
-        Geocode.fromAddress(artwork.location).then(
+        Geocode.fromAddress(artwork.addresspt).then(
             response => {
               const { lat, lng } = response.results[0].geometry.location;
               const geom = {"latitude":lat, "longitude":lng}
@@ -63,20 +67,20 @@ export default function Account({selectedArtwork}) {
     const handleFormSubmit = (event) => {
         event.preventDefault();
 
-        var myHeaders = new Headers();
+        const myHeaders = new Headers();
         // myHeaders.append("Cookie", "connect.sid=s%3AYIuwpNjTlbv1oUs2bTeyyQfzSlVPPkQA.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk");
 
-        var formdata = new FormData();
+        const formdata = new FormData();
         formdata.append("title", artwork.name);
-        formdata.append("location", artwork.location);
+        formdata.append("location", artwork.addresspt);
         formdata.append("artist", artwork.artist);
-        formdata.append("date", artwork.date);
-        formdata.append("details", artwork.details);
+        formdata.append("date", artwork.artdate);
+        formdata.append("details", artwork.structure_);
         formdata.append("latitude", artwork.geom.latitude);
         formdata.append("longitude", artwork.geom.longitude);
-        formdata.append("image", blob, artwork.title);
+        formdata.append("image", blob, artwork.name);
 
-        var requestOptions = {
+        const requestOptions = {
         method: 'POST',
         headers: myHeaders,
         body: formdata,
