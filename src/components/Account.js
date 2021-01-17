@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
@@ -36,12 +36,15 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Account({selectedArtwork}) {
 
-  console.log(selectedArtwork)
     const [artwork, setArtwork] = useState(selectedArtwork);
     const [blob, setBlob] = useState(null);
     const classes = useStyles();
     const [modalStyle] = useState(getModalStyle);
   
+    useEffect (()=>{
+      setArtwork(selectedArtwork)
+    }, [selectedArtwork])
+
       const handleAddressGet = (event) => {
         event.preventDefault();
         Geocode.fromAddress(artwork.location).then(
@@ -64,7 +67,7 @@ export default function Account({selectedArtwork}) {
         // myHeaders.append("Cookie", "connect.sid=s%3AYIuwpNjTlbv1oUs2bTeyyQfzSlVPPkQA.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk");
 
         var formdata = new FormData();
-        formdata.append("title", artwork.title);
+        formdata.append("title", artwork.name);
         formdata.append("location", artwork.location);
         formdata.append("artist", artwork.artist);
         formdata.append("date", artwork.date);
@@ -87,23 +90,23 @@ export default function Account({selectedArtwork}) {
       
     }
 
-
   const isSubmitButtonDisabled = !(
-    artwork.title && 
-    artwork.location && 
+    artwork.name && 
+    artwork.addresspt && 
     artwork.artist && 
-    artwork.date && 
-    artwork.details && 
+    artwork.artdate && 
+    artwork.structure_ && 
     artwork.geom && 
     blob
   )
+
     return (
         <>
         <div style={modalStyle} className={classes.paper}>
         <h1>Add Artwork</h1>
       <form className={classes.root} noValidate autoComplete="off" onSubmit={handleFormSubmit}>
-          <p><TextField required id="title" defaultValue={selectedArtwork.name} label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
-          <p><TextField required id="address" defaultValue={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
+          <p><TextField required id="name" defaultValue={selectedArtwork.name} label="Name of artwork" onChange={event=>setArtwork({...artwork, "name": event.target.value})}/></p>
+          <p><TextField required id="address" defaultValue={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "addresspt": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
           id="standard-required"
@@ -111,8 +114,8 @@ export default function Account({selectedArtwork}) {
           value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
         /></p>
           <p><TextField required id="artist" defaultValue={selectedArtwork.artist} label="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
-          <p><TextField required id="year" defaultValue={selectedArtwork.artdate} label="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
-          <p><TextField required id="material" defaultValue={selectedArtwork.structure_} label="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
+          <p><TextField required id="year" defaultValue={selectedArtwork.artdate} label="Year of construction" onChange={event=>setArtwork({...artwork, "artdate": event.target.value})}/></p>
+          <p><TextField required id="material" defaultValue={selectedArtwork.structure_} label="Material" onChange={event=>setArtwork({...artwork, "structure_": event.target.value})}/></p>
           <Button
             variant="contained"
             component="label"
