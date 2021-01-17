@@ -103,17 +103,17 @@ export default function Account({selectedArtwork}) {
         <h1>Add Artwork</h1>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
-          <p><TextField required id="title" value={selectedArtwork.name} label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
-          <p><TextField required id="address" value={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
+          <p><TextField required id="title" defaultValue={selectedArtwork.name} label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
+          <p><TextField required id="address" defaultValue={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
           id="standard-required"
           label="lat, lng"
           value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
         /></p>
-          <p><TextField required id="artist" value={selectedArtwork.artist} label="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
-          <p><TextField required id="year" value={selectedArtwork.artdate} label="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
-          <p><TextField required id="material" value={selectedArtwork.structure_} label="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
+          <p><TextField required id="artist" defaultValue={selectedArtwork.artist} label="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
+          <p><TextField required id="year" defaultValue={selectedArtwork.artdate} label="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
+          <p><TextField required id="material" defaultValue={selectedArtwork.structure_} label="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
           <Button
             variant="contained"
             component="label"

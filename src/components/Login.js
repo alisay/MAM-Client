@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {TokenContext} from "./TokenContext.js"
+import {TokenContext} from './TokenContext.js'
+import { Container } from '@material-ui/core'
 
 
 const useStyles = makeStyles((theme) => ({
@@ -23,6 +24,7 @@ async function loginUser(credentials) {
       .then(data => data.json())
       .catch(error=>{
           console.log(error);
+          window.alert("Sign in unsuccessful. Please try again.");//display error to user
           //render something to the user
         }
       )
@@ -47,6 +49,9 @@ export default function Login() {
 
 
   return(
+    <>
+    <Container>
+      <h2>Please log in</h2>
     <form className={classes.root} onSubmit={handleSubmit}>
       <label>
         <p>Username</p>
@@ -60,6 +65,8 @@ export default function Login() {
         <button type="submit">Submit</button>
       </div>
     </form>
+    </Container>
+    </>
   )
 }
 
