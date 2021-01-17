@@ -3,13 +3,14 @@ import Account from "./Account.js";
 import {TokenContext} from "./TokenContext.js";
 import axios from "axios"
 import { DataGrid } from '@material-ui/data-grid';
-import { Grid, Button, Container } from '@material-ui/core';
+import { Grid, Button, Container, Modal } from '@material-ui/core';
 
 
 export default function Dashboard () {
     const context = useContext(TokenContext)
     const [ artworks, setArtworks ] = useState(undefined)
     const [ selected, setSelected ] = useState("")
+    const [open, setOpen] = useState(false);
 
     useEffect(() => {
         axios.get("https://melbourneartmap.herokuapp.com/artworks/")
@@ -28,11 +29,24 @@ export default function Dashboard () {
         const rows = artworks ? artworks.map(artwork=>{
             return { id: artwork._id, artworkName: artwork.name, artist: artwork.artist }
         }) : []
+
+
+        const handleOpen = () => {
+          setOpen(true);
+        };
+      
+        const handleClose = () => {
+          setOpen(false);
+        };
+      
           
 
         const handleAddArtwork = () => {
 
         }
+
+
+          
 
         const handleDeleteArtwork = () => {
             var myHeaders = new Headers();
@@ -66,7 +80,7 @@ export default function Dashboard () {
             <div>
             <Grid container spacing={3}>
                 <Grid container item xs>
-                    <Button variant="contained" color="secondary" onClick={handleAddArtwork}>Add New Artwork</Button>
+                    <Button variant="contained" color="secondary" onClick={handleOpen}>Add New Artwork</Button>
                 </Grid>
                 <Grid container item xs>
                     <Button variant="contained" color="secondary" onClick={handleAddArtwork}>Edit Selected Artwork</Button>
@@ -76,7 +90,14 @@ export default function Dashboard () {
                 </Grid>
             </Grid>
             </div>
-            {/* <Account /> */}
+            <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="about-title"
+                aria-describedby="about-description"
+            >
+                <Account />
+            </Modal>
         </Container>
         </>
     )

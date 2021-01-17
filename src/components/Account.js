@@ -8,25 +8,45 @@ import {TokenContext} from "./TokenContext.js"
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
 
+function rand() {
+  return Math.round(Math.random() * 20) - 10;
+}
+
+function getModalStyle() {
+  const top = 50 + rand();
+  const left = 50 + rand();
+
+  return {
+    top: `${top}%`,
+    left: `${left}%`,
+    transform: `translate(-${top}%, -${left}%)`,
+  };
+}
+
 const useStyles = makeStyles((theme) => ({
-  root: {
-    '& .MuiTextField-root': {
-      margin: theme.spacing(1),
-      width: '25ch',
-    },
-    submit: {
+    root: {
         '& > *': {
-            float: 'right',
+          margin: theme.spacing(1),
         },
+      },
+    
+    paper: {
+        position: 'absolute',
+        width: 400,
+        backgroundColor: theme.palette.background.paper,
+        border: '2px solid #000',
+        boxShadow: theme.shadows[5],
+        padding: theme.spacing(2, 4, 3),
     },
-  },
 }));
 
 export default function Account() {
-    const classes = useStyles();
     const [artwork, setArtwork] = useState({});
     const [blob, setBlob] = useState(null);
     const context = useContext(TokenContext)
+    const classes = useStyles();
+    const [modalStyle] = useState(getModalStyle);
+  
   
     if(!context.token) {
       return <Login setToken={context.setToken} />
@@ -34,14 +54,11 @@ export default function Account() {
 
     const handleAddressGet = (event) => {
         event.preventDefault();
-        console.log(artwork.location)
         Geocode.fromAddress(artwork.location).then(
             response => {
               const { lat, lng } = response.results[0].geometry.location;
-              const location = {"geom":{"latitude":lat, "longitude":lng}}
-              setArtwork(location)
-              console.log(location)
-              console.log(artwork)
+              const geom = {"latitude":lat, "longitude":lng}
+              setArtwork({...artwork, geom})
             },
             error => {
               console.error(error);
@@ -49,7 +66,7 @@ export default function Account() {
             }
           );
     }
-  
+
     const handleFormSubmit = (event) => {
         event.preventDefault();
 
@@ -64,7 +81,7 @@ export default function Account() {
         formdata.append("details", artwork.details);
         formdata.append("latitude", artwork.geom.latitude);
         formdata.append("longitude", artwork.geom.longitude);
-        formdata.append("image", blob);
+        formdata.append("image", blob, artwork.title);
 
         var requestOptions = {
         method: 'POST',
@@ -77,31 +94,46 @@ export default function Account() {
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
-        
+      
     }
 
   //   const showAuth = (event)=>{
   //     event.preventDefault();
   //     console.log("token", context.token)
   // }
+  const isSubmitButtonDisabled = !(
+    artwork.title && 
+    artwork.location && 
+    artwork.artist && 
+    artwork.date && 
+    artwork.details && 
+    artwork.geom && 
+    blob
+  )
 
+  console.log('isSubmitButtonDisabled', isSubmitButtonDisabled)
+
+  console.log('artwork ', artwork)
+  console.log('blob ', blob)
+  
     return (
         <>
         {/* <button onClick={showAuth}>Show me</button> */}
+        <div style={modalStyle} className={classes.paper}>
         <h1>Add Artwork</h1>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
-          <p><TextField required id="standard-required" label="Required" defaultValue="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
-          <p><TextField required id="standard-required" label="Required" defaultValue="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
+          <p><TextField required id="standard-required" label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
+          <p><TextField required id="standard-required" label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
           id="standard-required"
           label="lat, lng"
           value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
         /></p>
-          <p><TextField required id="standard-required" label="Required" defaultValue="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
-          <p><TextField required id="standard-required" label="Required" defaultValue="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
-          <p><TextField required id="standard-required" label="Required" defaultValue="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
+          <p><TextField required id="standard-required" label="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
+          <p><TextField required id="standard-required" label="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
+          <p><TextField required id="standard-required" label="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
           <Button
             variant="contained"
             component="label"
@@ -115,9 +147,10 @@ export default function Account() {
         </div>
         <div className={classes.submit}>
           {/* disable button when loading */}
-        <Button type="submit" variant="contained" color="secondary" onClick={handleFormSubmit}>Submit</Button>
+        <Button type="submit" variant="contained" color="secondary" onClick={handleFormSubmit} disabled={isSubmitButtonDisabled}>Submit</Button>
         </div>
       </form>
+      </div>
       </>
     );
   }
