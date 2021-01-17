@@ -10,7 +10,6 @@ import Dashboard from "./components/Dashboard.js";
 function App() {
   const [ selected, setSelected ] = useState({});
 
-
   return (<BrowserRouter>
   <NavBar selected={selected} setSelected={setSelected} />
   <main>
@@ -19,7 +18,7 @@ function App() {
         <MapContainer selected={selected} setSelected={setSelected} />
       </Route>
       <Route exact path="/account">
-        <Dashboard />
+        <Dashboard selected={selected} setSelected={setSelected} />
       </Route>
     </Switch>
   </main>

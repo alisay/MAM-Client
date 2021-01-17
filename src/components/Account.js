@@ -2,19 +2,14 @@ import React, { useState, useContext } from 'react';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import Geocode from 'react-geocode';
-import Login from "./Login.js"
 import {TokenContext} from "./TokenContext.js"
 
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_API);
 
-function rand() {
-  return Math.round(Math.random() * 20) - 10;
-}
-
 function getModalStyle() {
-  const top = 50 + rand();
-  const left = 50 + rand();
+  const top = 50;
+  const left = 50;
 
   return {
     top: `${top}%`,
@@ -40,19 +35,16 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Account() {
-    const [artwork, setArtwork] = useState({});
+export default function Account({selectedArtwork}) {
+
+  console.log(selectedArtwork)
+    const [artwork, setArtwork] = useState(selectedArtwork);
     const [blob, setBlob] = useState(null);
     const context = useContext(TokenContext)
     const classes = useStyles();
     const [modalStyle] = useState(getModalStyle);
   
-  
-    if(!context.token) {
-      return <Login setToken={context.setToken} />
-    }
-
-    const handleAddressGet = (event) => {
+      const handleAddressGet = (event) => {
         event.preventDefault();
         Geocode.fromAddress(artwork.location).then(
             response => {
@@ -97,10 +89,7 @@ export default function Account() {
       
     }
 
-  //   const showAuth = (event)=>{
-  //     event.preventDefault();
-  //     console.log("token", context.token)
-  // }
+
   const isSubmitButtonDisabled = !(
     artwork.title && 
     artwork.location && 
@@ -110,30 +99,23 @@ export default function Account() {
     artwork.geom && 
     blob
   )
-
-  console.log('isSubmitButtonDisabled', isSubmitButtonDisabled)
-
-  console.log('artwork ', artwork)
-  console.log('blob ', blob)
-  
     return (
         <>
-        {/* <button onClick={showAuth}>Show me</button> */}
         <div style={modalStyle} className={classes.paper}>
         <h1>Add Artwork</h1>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
-          <p><TextField required id="standard-required" label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
-          <p><TextField required id="standard-required" label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
+          <p><TextField required id="title" value={selectedArtwork.name} label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
+          <p><TextField required id="address" value={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
           id="standard-required"
           label="lat, lng"
           value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
         /></p>
-          <p><TextField required id="standard-required" label="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
-          <p><TextField required id="standard-required" label="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
-          <p><TextField required id="standard-required" label="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
+          <p><TextField required id="artist" value={selectedArtwork.artist} label="Artist" onChange={event=>setArtwork({...artwork, "artist": event.target.value})}/></p>
+          <p><TextField required id="year" value={selectedArtwork.artdate} label="Year of construction" onChange={event=>setArtwork({...artwork, "date": event.target.value})}/></p>
+          <p><TextField required id="material" value={selectedArtwork.structure_} label="Material" onChange={event=>setArtwork({...artwork, "details": event.target.value})}/></p>
           <Button
             variant="contained"
             component="label"

@@ -4,13 +4,17 @@ import {TokenContext} from "./TokenContext.js";
 import axios from "axios"
 import { DataGrid } from '@material-ui/data-grid';
 import { Grid, Button, Container, Modal } from '@material-ui/core';
+import Login from "./Login.js"
 
 
-export default function Dashboard () {
+
+export default function Dashboard ({selected, setSelected}) {
     const context = useContext(TokenContext)
     const [ artworks, setArtworks ] = useState(undefined)
-    const [ selected, setSelected ] = useState("")
     const [open, setOpen] = useState(false);
+
+    const [, setSelection] = useState([]);
+
 
     useEffect(() => {
         axios.get("https://melbourneartmap.herokuapp.com/artworks/")
@@ -19,6 +23,10 @@ export default function Dashboard () {
             })
             .catch(console.log)
         }, [])
+
+        if(!context.token) {
+            return <Login setToken={context.setToken} />
+          }      
 
         const columns = [
             { field: 'id', headerName: 'ID', width: 300 },
@@ -30,6 +38,7 @@ export default function Dashboard () {
             return { id: artwork._id, artworkName: artwork.name, artist: artwork.artist }
         }) : []
 
+        // const rows = [{id: 1, artworkName: "artwork.", artist: "artwork.artist" } ]
 
         const handleOpen = () => {
           setOpen(true);
@@ -39,15 +48,7 @@ export default function Dashboard () {
           setOpen(false);
         };
       
-          
-
-        const handleAddArtwork = () => {
-
-        }
-
-
-          
-
+              
         const handleDeleteArtwork = () => {
             var myHeaders = new Headers();
             // myHeaders.append("Cookie", "connect.sid=s%3AbvU1pAQSo4S9hUHkM8vnMk-YKiIXLg3N.U52w521hIr7RE2PcPv41UHXi%2BPQY%2Bfb6u8TmRbeVL3w");
@@ -61,32 +62,43 @@ export default function Dashboard () {
             fetch(`https://melbourneartmap.herokuapp.com/artworks/${selected}`, requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
-            .catch(error => console.log('error', error));            
+            .catch(error => console.log('error', error));    
+            
         }
 
         const handleSelectionChange = (event) =>{
-            setSelected(event.rowIds[0])
+            const rowId = event.rowIds[0]
+            console.log("rowId", rowId)
+            setSelection(event.rowIds)
+            const foundArtwork = artworks.find(artwork=>artwork._id===rowId)
+            console.log("artworks", artworks)
+            console.log("artwork", foundArtwork)
+            setSelected(foundArtwork)
+            console.log("selected", selected)
         }
+
+          //   const showAuth = (event)=>{
+  //     event.preventDefault();
+  //     console.log("token", context.token)
+  // }
 
     return(
         <>
+                {/* <button onClick={(showAuth)}>Show me</button> */}
         <Container>
-        <h2>Welcome {context.token.admin.username}! </h2>
+        <h2>Welcome {context.token && context.token.admin.username}! </h2>
             {/* <div>{artworks && artworks.map(artwork=>artwork.name)}</div> */}
             <div style={{ height: 400, width: '100%' }}>
                 <DataGrid rows={rows} columns={columns} pageSize={5} onSelectionChange={handleSelectionChange} />
             </div>
             <p></p>
             <div>
-            <Grid container spacing={3}>
-                <Grid container item xs>
-                    <Button variant="contained" color="secondary" onClick={handleOpen}>Add New Artwork</Button>
-                </Grid>
-                <Grid container item xs>
-                    <Button variant="contained" color="secondary" onClick={handleAddArtwork}>Edit Selected Artwork</Button>
-                </Grid>
-                <Grid container item xs={3} >
+            <Grid container spacing={2}>
+                <Grid container item xs >
                     <Button variant="contained" color="secondary" onClick={handleDeleteArtwork}>Delete Selected Artwork</Button>
+                </Grid>
+                <Grid container item xs={9}>
+                    <Button variant="contained" color="secondary" onClick={handleOpen}>Add/Edit Artwork</Button>
                 </Grid>
             </Grid>
             </div>
@@ -96,7 +108,7 @@ export default function Dashboard () {
                 aria-labelledby="about-title"
                 aria-describedby="about-description"
             >
-                <Account />
+                <Account selectedArtwork={selected}/>
             </Modal>
         </Container>
         </>

@@ -163,7 +163,10 @@ export default function PrimarySearchAppBar(props) {
           }
       })
       .catch(error => console.log('error', error));
+      console.log("selected?", props.selected)
+      // setSelection(newSelection.rowIds)
       }
+
 }
 
   return (

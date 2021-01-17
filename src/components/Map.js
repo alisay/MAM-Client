@@ -9,6 +9,7 @@ const MapContainer = ({selected, setSelected}) => {
 
     const onSelect = (artwork) => {
         setSelected(artwork);
+        console.log(selected)
       }
     
     const success = position => {
