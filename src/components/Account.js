@@ -101,8 +101,7 @@ export default function Account({selectedArtwork}) {
         <>
         <div style={modalStyle} className={classes.paper}>
         <h1>Add Artwork</h1>
-      <form className={classes.root} noValidate autoComplete="off">
-        <div>
+      <form className={classes.root} noValidate autoComplete="off" onSubmit={handleFormSubmit}>
           <p><TextField required id="title" defaultValue={selectedArtwork.name} label="Name of artwork" onChange={event=>setArtwork({...artwork, "title": event.target.value})}/></p>
           <p><TextField required id="address" defaultValue={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "location": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
@@ -124,11 +123,7 @@ export default function Account({selectedArtwork}) {
                 onChange={(e) => setBlob(e.target.files[0])}
             />
           </Button>
-        </div>
-        <div className={classes.submit}>
-          {/* disable button when loading */}
-        <Button type="submit" variant="contained" color="secondary" onClick={handleFormSubmit} disabled={isSubmitButtonDisabled}>Submit</Button>
-        </div>
+        <Button type="submit" variant="contained" color="secondary" disabled={isSubmitButtonDisabled}>Submit</Button>
       </form>
       </div>
       </>
