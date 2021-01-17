@@ -54,7 +54,7 @@ export default function Account() {
         event.preventDefault();
 
         var myHeaders = new Headers();
-        myHeaders.append("Cookie", "connect.sid=s%3AYIuwpNjTlbv1oUs2bTeyyQfzSlVPPkQA.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk");
+        // myHeaders.append("Cookie", "connect.sid=s%3AYIuwpNjTlbv1oUs2bTeyyQfzSlVPPkQA.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk");
 
         var formdata = new FormData();
         formdata.append("title", artwork.title);
