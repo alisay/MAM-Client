@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 async function loginUser(credentials) {
     return fetch('https://melbourneartmap.herokuapp.com/auth/login', {
       method: 'POST',
+      credentials: 'include',
       headers: {
         'Content-Type': 'application/json'
       },
