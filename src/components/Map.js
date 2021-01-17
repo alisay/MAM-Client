@@ -34,7 +34,7 @@ const MapContainer = ({selected, setSelected}) => {
         }, [])
 
     const mapStyles = {        
-        height: "100vh",
+        height: "90vh",
         width: "100%"};
     
     const defaultCenter = {
