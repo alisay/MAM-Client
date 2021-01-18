@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function Account({selectedArtwork}) {
+export default function Account({selectedArtwork, setSelected, artworks, setArtworks, handleClose}) {
 
     const [artwork, setArtwork] = useState(selectedArtwork);
     const [blob, setBlob] = useState(null);
@@ -64,7 +64,6 @@ export default function Account({selectedArtwork}) {
         event.preventDefault();
                 
         const myHeaders = new Headers();
-        // myHeaders.append("Cookie", `connect.sid=s%${context.token.sessionID}.9y1Gr1owmqFmWnZWT%2FLEHiEfr9UWZLm9aTSu7im04sk`);
 
         const formdata = new FormData();
         formdata.append("title", artwork.name);
@@ -88,6 +87,12 @@ export default function Account({selectedArtwork}) {
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
       
+        // const updatedArtwork = artworks.find(artwork=>artwork._id===selectedArtwork._id)
+        // setArtworks(artworks.filter(artwork=>artwork._id!==selectedArtwork._id))
+        // setArtworks(artworks)
+        setSelected({})
+        handleClose()
+        window.location.reload();
     }
 
   const isSubmitButtonDisabled = !(
@@ -109,6 +114,7 @@ export default function Account({selectedArtwork}) {
           <p><TextField required id="address" defaultValue={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "addresspt": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
+          disabled
           id="standard-required"
           label="lat, lng"
           value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
