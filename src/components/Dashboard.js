@@ -38,8 +38,6 @@ export default function Dashboard ({selected, setSelected}) {
             return { id: artwork._id, artworkName: artwork.name, artist: artwork.artist }
         }) : []
 
-        // const rows = [{id: 1, artworkName: "artwork.", artist: "artwork.artist" } ]
-
         const handleOpen = () => {
           setOpen(true);
         };
@@ -51,7 +49,6 @@ export default function Dashboard ({selected, setSelected}) {
               
         const handleDeleteArtwork = () => {
             var myHeaders = new Headers();
-            // myHeaders.append("Cookie", "connect.sid=s%3AbvU1pAQSo4S9hUHkM8vnMk-YKiIXLg3N.U52w521hIr7RE2PcPv41UHXi%2BPQY%2Bfb6u8TmRbeVL3w");
 
             var requestOptions = {
             method: 'DELETE',
@@ -59,17 +56,19 @@ export default function Dashboard ({selected, setSelected}) {
             redirect: 'follow'
             };
 
-            fetch(`https://melbourneartmap.herokuapp.com/artworks/${selected}`, requestOptions)
+            fetch(`https://melbourneartmap.herokuapp.com/artworks/${selected._id}`, requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
-            .catch(error => console.log('error', error));    
+            .catch(error => console.log('error', error)); 
             
+            setArtworks(artworks.filter(artwork=>artwork._id!==selected._id))
+            setSelected({})
         }
 
         const handleSelectionChange = (event) =>{
             const rowId = event.rowIds[0]
             console.log("rowId", rowId)
-            setSelection(event.rowIds)
+            setSelection(event.rowIds[0])
             const foundArtwork = artworks.find(artwork=>artwork._id===rowId)
             console.log("artworks", artworks)
             console.log("artwork", foundArtwork)
@@ -77,17 +76,10 @@ export default function Dashboard ({selected, setSelected}) {
             console.log("selected", selected)
         }
 
-          //   const showAuth = (event)=>{
-  //     event.preventDefault();
-  //     console.log("token", context.token)
-  // }
-
     return(
         <>
-                {/* <button onClick={(showAuth)}>Show me</button> */}
         <Container>
         <h2>Welcome {context.token && context.token.admin.username}! </h2>
-            {/* <div>{artworks && artworks.map(artwork=>artwork.name)}</div> */}
             <div style={{ height: 400, width: '100%' }}>
                 <DataGrid rows={rows} columns={columns} pageSize={5} onSelectionChange={handleSelectionChange} />
             </div>
@@ -108,7 +100,7 @@ export default function Dashboard ({selected, setSelected}) {
                 aria-labelledby="about-title"
                 aria-describedby="about-description"
             >
-                <Account selectedArtwork={selected}/>
+                <Account selectedArtwork={selected} setSelected={setSelected} artworks={artworks} setArtworks={setArtworks} handleClose={handleClose}/>
             </Modal>
         </Container>
         </>
