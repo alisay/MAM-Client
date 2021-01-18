@@ -1,1 +1,1 @@
-This is the client side, deployed to netlify at: https://mam-mern.netlify.app/
+Hi Merge Conflict
