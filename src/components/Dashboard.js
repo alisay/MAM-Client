@@ -50,12 +50,15 @@ export default function Dashboard ({selected, setSelected}) {
       
               
         const handleDeleteArtwork = () => {
-            var myHeaders = new Headers();
+            const myHeaders = new Headers();
+            // myHeaders.append("Authorization", context.token)
             // myHeaders.append("Cookie", "connect.sid=s%3AbvU1pAQSo4S9hUHkM8vnMk-YKiIXLg3N.U52w521hIr7RE2PcPv41UHXi%2BPQY%2Bfb6u8TmRbeVL3w");
 
-            var requestOptions = {
+            const requestOptions = {
             method: 'DELETE',
+            // mode: "cors",
             headers: myHeaders,
+            // credentials:'include',
             redirect: 'follow'
             };
 
@@ -77,14 +80,15 @@ export default function Dashboard ({selected, setSelected}) {
             console.log("selected", selected)
         }
 
-          //   const showAuth = (event)=>{
-  //     event.preventDefault();
-  //     console.log("token", context.token)
-  // }
+            const showAuth = (event)=>{
+                event.preventDefault();
+                event.UnselectAll()
+                console.log("got here")
+         }
 
     return(
         <>
-                {/* <button onClick={(showAuth)}>Show me</button> */}
+                <button onClick={(showAuth)}>Unselect all</button>
         <Container>
         <h2>Welcome {context.token && context.token.admin.username}! </h2>
             {/* <div>{artworks && artworks.map(artwork=>artwork.name)}</div> */}

@@ -113,6 +113,7 @@ export default function Account({selectedArtwork}) {
           <p><TextField required id="address" defaultValue={selectedArtwork.addresspt} label="Address" onChange={event=>setArtwork({...artwork, "addresspt": event.target.value})}/></p>
           <Button type="submit" variant="contained" onClick={handleAddressGet}>Get address</Button>
           <p><TextField
+          disabled
           id="standard-required"
           label="lat, lng"
           value={artwork && artwork.geom ? `${artwork.geom.latitude}, ${artwork.geom.longitude}` : ""}
