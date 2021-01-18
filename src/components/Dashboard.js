@@ -22,7 +22,7 @@ export default function Dashboard ({selected, setSelected}) {
                 setArtworks(res.data)
             })
             .catch(console.log)
-        }, [])
+        }, [artworks])
 
         if(!context.token) {
             return <Login setToken={context.setToken} />
@@ -61,7 +61,7 @@ export default function Dashboard ({selected, setSelected}) {
             .then(result => console.log(result))
             .catch(error => console.log('error', error)); 
             
-            setArtworks(artworks.filter(artwork=>artwork._id!==selected._id))
+            setArtworks(artworks.filter(artwork=>artwork._id===selected._id))
             setSelected({})
         }
 

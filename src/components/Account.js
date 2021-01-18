@@ -87,12 +87,9 @@ export default function Account({selectedArtwork, setSelected, artworks, setArtw
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
       
-        // const updatedArtwork = artworks.find(artwork=>artwork._id===selectedArtwork._id)
-        // setArtworks(artworks.filter(artwork=>artwork._id!==selectedArtwork._id))
-        // setArtworks(artworks)
+        setArtworks(artworks.filter(artwork=>artwork._id!==selectedArtwork._id))
         setSelected({})
         handleClose()
-        window.location.reload();
     }
 
   const isSubmitButtonDisabled = !(
