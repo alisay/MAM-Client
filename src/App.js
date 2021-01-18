@@ -21,6 +21,7 @@ function App() {
         <Dashboard selected={selected} setSelected={setSelected} />
       </Route>
     </Switch>
+    <Route render={() => <Redirect to="/" />} />
   </main>
   </BrowserRouter>
   );
