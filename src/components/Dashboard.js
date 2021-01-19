@@ -67,13 +67,9 @@ export default function Dashboard ({selected, setSelected}) {
 
         const handleSelectionChange = (event) =>{
             const rowId = event.rowIds[0]
-            console.log("rowId", rowId)
             setSelection(event.rowIds[0])
             const foundArtwork = artworks.find(artwork=>artwork._id===rowId)
-            console.log("artworks", artworks)
-            console.log("artwork", foundArtwork)
             setSelected(foundArtwork)
-            console.log("selected", selected)
         }
 
     return(

@@ -43,7 +43,6 @@ export default function Login() {
           username,
           password
         });
-        console.log("loginAuth", loginAuth)
         context.saveToken(loginAuth)
       }
 
